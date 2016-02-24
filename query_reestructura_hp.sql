@@ -1,6 +1,4 @@
-﻿
-
-		--- bdempresasmanta
+﻿		--- bdempresasmanta
 create database bdempresasmanta;
 
 
@@ -867,9 +865,6 @@ cost 100;
 
 --select InsertarPagosPorServiciosAlquiler ('1314853209001',2015,2015,123480,2015,123480,2015,123480,2015,123480,2015,123480,2015,123480,2015,123480);
 --select * from pagosPorServiciosAlquiler;
-
-
-.---- AQUI
 
 
 create table activosIntangibles(

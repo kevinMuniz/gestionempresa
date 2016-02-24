@@ -133,7 +133,7 @@ public class ingreso_modificacion {
             Class.forName("org.postgresql.Driver");
             Connection conex = DriverManager.getConnection(cadena,usuario,contrasenia);
             java.sql.Statement st = conex.createStatement();
-            String sql = "select insertarCOMBUSTIBLES ('"+rucx+"',"+ano+", "+GASOLINAMEDIDA+" , "+GASOLINACANTIDAD+" , "+GASOLINAVALOR+" , "+DIESELMEDIDA+" , "+DIESELCANTIDAD+" , "+DIESELVALOR+" , "+RESIDUOMEDIDA+" , "+RESIDUOCANTIDAD+" , "+RESIDUOVALOR+" , "+GASMEDIDA+" , "+GASCANTIDAD+" , "+GASVALOR+" , "+ACEITEMEDIDA+" , "+ACEITECANTIDAD+" , "+ACEITEVALOR+" , "+GRASASMEDIDA+" , "+GRASASCANTIDAD+" , "+GRASASVALOR+" , "+OTROSMEDIDA+" , "+OTROSCANTIDAD+" , "+OTROSVALOR+")";
+            String sql = "select insertarCOMBUSTIBLES ('"+rucx+"',"+ano+", '"+GASOLINAMEDIDA+"' , "+GASOLINACANTIDAD+" , "+GASOLINAVALOR+" , '"+DIESELMEDIDA+"' , "+DIESELCANTIDAD+" , "+DIESELVALOR+" , '"+RESIDUOMEDIDA+"' , "+RESIDUOCANTIDAD+" , "+RESIDUOVALOR+" , '"+GASMEDIDA+"' , "+GASCANTIDAD+" , "+GASVALOR+" , '"+ACEITEMEDIDA+"' , "+ACEITECANTIDAD+" , "+ACEITEVALOR+" , '"+GRASASMEDIDA+"' , "+GRASASCANTIDAD+" , "+GRASASVALOR+" , '"+OTROSMEDIDA+"' , "+OTROSCANTIDAD+" , "+OTROSVALOR+")";
             ResultSet resultSet = st.executeQuery(sql);                        
             resultSet.close();                
             st.close();
@@ -178,7 +178,7 @@ public class ingreso_modificacion {
             Class.forName("org.postgresql.Driver");
             Connection conex = DriverManager.getConnection(cadena,usuario,contrasenia);
             java.sql.Statement st = conex.createStatement();
-            String sql = "select InsertarElec_Agua ('"+rucx+"',"+ano+" ,"+ELECTRICIDADunidadMedida+" , "+ELECTRICIDADcantidad+" , "+ELECTRICIDADvalor+" , "+ELECTRICIDADCOMPRADAunidadMedida+" , "+ELECTRICIDADCOMPRADAcantidad+" , "+ELECTRICIDADCOMPRADAvalor+" , "+AGUAunidadMedida+" , "+AGUAcantidad+" , "+AGUAvalor+" , "+AGUANATURALunidadMedida+" , "+AGUANATURALcantidad+" , "+AGUANATURALvalor+")";
+            String sql = "select InsertarElec_Agua ('"+rucx+"',"+ano+" ,'"+ELECTRICIDADunidadMedida+"' , "+ELECTRICIDADcantidad+" , "+ELECTRICIDADvalor+" , '"+ELECTRICIDADCOMPRADAunidadMedida+"' , "+ELECTRICIDADCOMPRADAcantidad+" , "+ELECTRICIDADCOMPRADAvalor+" , '"+AGUAunidadMedida+"' , "+AGUAcantidad+" , "+AGUAvalor+" , '"+AGUANATURALunidadMedida+"' , "+AGUANATURALcantidad+" , "+AGUANATURALvalor+")";
             ResultSet resultSet = st.executeQuery(sql);                        
             resultSet.close();                
             st.close();
@@ -202,7 +202,7 @@ public class ingreso_modificacion {
             }
     }
     
-     public void ingreso_PagosPorServiciosAlquiler(String rucx, int ano,int LOCALESTIEMPO,int LOCALESVALOR,int MUEBLESTIEMPO,int MUEBLESVALOR,int MAQUINARIATIEMPO,int MAQUINARIAVALOR,int COMPUTOTIEMPO,int COMPUTOVALOR,int ELECTRONICOSTIEMPO,int ELECTRONICOSVALOR,int VEHICULOTIEMPO,int VEHICULOVALOR,int OTROSTIEMPO,int OTROSVALOR)
+    public void ingreso_PagosPorServiciosAlquiler(String rucx, int ano,int LOCALESTIEMPO,int LOCALESVALOR,int MUEBLESTIEMPO,int MUEBLESVALOR,int MAQUINARIATIEMPO,int MAQUINARIAVALOR,int COMPUTOTIEMPO,int COMPUTOVALOR,int ELECTRONICOSTIEMPO,int ELECTRONICOSVALOR,int VEHICULOTIEMPO,int VEHICULOVALOR,int OTROSTIEMPO,int OTROSVALOR)
     {
         try{                    
             Class.forName("org.postgresql.Driver");
@@ -217,20 +217,36 @@ public class ingreso_modificacion {
             }
     }
      
-    public void ingreso_HonorariosComisiones(String rucx, int ano ,int juridicovalor ,int contabilidadvalor ,int informaticosvalor ,int comisionesvalor ,int asistenciavalor ,int otrosvalor )
+    public void ingreso_ActivosIntangibles(String rucx, int ano,String descripcion,int anioCompra, int compra, int duracionEnAnios)
     {
         try{                    
             Class.forName("org.postgresql.Driver");
             Connection conex = DriverManager.getConnection(cadena,usuario,contrasenia);
             java.sql.Statement st = conex.createStatement();
-            String sql = "select InsertarPagosPorServicio ('"+rucx+"', "+ano+","+juridicovalor+" , "+contabilidadvalor+","+informaticosvalor+","+comisionesvalor+","+asistenciavalor+","+otrosvalor+")";
+            String sql = "select InsertarActivosIntangibles('"+rucx+"',"+ano+",'"+ descripcion+"',"+anioCompra+", "+compra+", "+duracionEnAnios+")";
             ResultSet resultSet = st.executeQuery(sql);                        
             resultSet.close();                
             st.close();
             conex.close();                
             }catch(Exception exc){                
             }
-    }       
+    }
+    
+    public void ingreso_nombreMateriasPrimasAuxiliares(String rucx, int ano,String descripcion,int anioCompra, int compra, int duracionEnAnios)
+    {
+        try{                    
+            Class.forName("org.postgresql.Driver");
+            Connection conex = DriverManager.getConnection(cadena,usuario,contrasenia);
+            java.sql.Statement st = conex.createStatement();
+            String sql = "select InsertarMateriasPrimasAuxiliares('"+rucx+"',"+ano+",'"+ descripcion+"',"+anioCompra+", "+compra+", "+duracionEnAnios+")";
+            ResultSet resultSet = st.executeQuery(sql);                        
+            resultSet.close();                
+            st.close();
+            conex.close();                
+            }catch(Exception exc){                
+            }
+    }
+      
 }
 
-//
+//String[] descripcion ,ND0 int[],unidadMedida varchar[],cantidad_ND1 int[],valor_ND1 int[],cantidad_ND2 int[],valor_ND2 int[],cantidad_ND3 int[],valor_ND3 int[],ND4 int[]

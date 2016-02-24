@@ -25,7 +25,7 @@ public class Gestion_Crear extends javax.swing.JFrame {
         setLocationRelativeTo(null);
         btncancelar.setVisible(false);
         btnguardar1.setVisible(false);
-        jButton1.setVisible(false);               
+        jButton1.setVisible(true);               
         tabla_ventas.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
         tabla_combustible.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
         tabla_energia.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
@@ -34,8 +34,7 @@ public class Gestion_Crear extends javax.swing.JFrame {
         tabla_gastos.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
         tabla_materias.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
         tabla_productos.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
- 
-
+        this.setExtendedState(MAXIMIZED_BOTH);
     }
 
   
@@ -118,6 +117,7 @@ public class Gestion_Crear extends javax.swing.JFrame {
         socios_thombres = new javax.swing.JTextField();
         socios_Smujeres = new javax.swing.JTextField();
         socios_Shombres = new javax.swing.JTextField();
+        jButton2 = new javax.swing.JButton();
         tabventas = new javax.swing.JPanel();
         jPanel8 = new javax.swing.JPanel();
         jLabel16 = new javax.swing.JLabel();
@@ -163,6 +163,81 @@ public class Gestion_Crear extends javax.swing.JFrame {
         tabla_energia = new javax.swing.JTable();
         ANIO1 = new javax.swing.JSpinner();
         jLabel68 = new javax.swing.JLabel();
+        jLabel80 = new javax.swing.JLabel();
+        gasolina_val = new javax.swing.JTextField();
+        gasolina_UM = new javax.swing.JTextField();
+        gasolina_Cant = new javax.swing.JTextField();
+        jLabel81 = new javax.swing.JLabel();
+        jLabel82 = new javax.swing.JLabel();
+        jLabel83 = new javax.swing.JLabel();
+        jLabel84 = new javax.swing.JLabel();
+        jLabel85 = new javax.swing.JLabel();
+        jLabel86 = new javax.swing.JLabel();
+        diesel_UM = new javax.swing.JTextField();
+        diesel_cant = new javax.swing.JTextField();
+        diesel_val = new javax.swing.JTextField();
+        residuo_um = new javax.swing.JTextField();
+        residuo_cant = new javax.swing.JTextField();
+        residuo_val = new javax.swing.JTextField();
+        gas_um = new javax.swing.JTextField();
+        gas_cant = new javax.swing.JTextField();
+        gas_val = new javax.swing.JTextField();
+        aceite_UM = new javax.swing.JTextField();
+        aceite_cant = new javax.swing.JTextField();
+        aceite_val = new javax.swing.JTextField();
+        grasas_UM = new javax.swing.JTextField();
+        grasa_cant = new javax.swing.JTextField();
+        grasa_val = new javax.swing.JTextField();
+        otros_UM = new javax.swing.JTextField();
+        otros_cant = new javax.swing.JTextField();
+        impuetos_netos_val = new javax.swing.JTextField();
+        jLabel87 = new javax.swing.JLabel();
+        jLabel88 = new javax.swing.JLabel();
+        jLabel89 = new javax.swing.JLabel();
+        jLabel90 = new javax.swing.JLabel();
+        jLabel91 = new javax.swing.JLabel();
+        jLabel92 = new javax.swing.JLabel();
+        otros_val = new javax.swing.JTextField();
+        iva_cobrado = new javax.swing.JTextField();
+        iva_pagado = new javax.swing.JTextField();
+        ice_val = new javax.swing.JTextField();
+        impuesto_predial_val = new javax.swing.JTextField();
+        otros_impuestos_val = new javax.swing.JTextField();
+        limpiar_combustibles = new javax.swing.JButton();
+        jLabel93 = new javax.swing.JLabel();
+        energia_producida_val = new javax.swing.JTextField();
+        jLabel94 = new javax.swing.JLabel();
+        jLabel95 = new javax.swing.JLabel();
+        jLabel96 = new javax.swing.JLabel();
+        energia_producida_UM = new javax.swing.JTextField();
+        energia_producida_cant = new javax.swing.JTextField();
+        energia_comprada_UM = new javax.swing.JTextField();
+        energia_comprada_cant = new javax.swing.JTextField();
+        energia_comprada_val = new javax.swing.JTextField();
+        agua_potable_UM = new javax.swing.JTextField();
+        agua_potable_cant = new javax.swing.JTextField();
+        agua_potable_val = new javax.swing.JTextField();
+        agua_natural_UM = new javax.swing.JTextField();
+        agua_natural_cant = new javax.swing.JTextField();
+        agua_natural_val = new javax.swing.JTextField();
+        jLabel97 = new javax.swing.JLabel();
+        jLabel98 = new javax.swing.JLabel();
+        jLabel99 = new javax.swing.JLabel();
+        jLabel100 = new javax.swing.JLabel();
+        jLabel101 = new javax.swing.JLabel();
+        jLabel102 = new javax.swing.JLabel();
+        materias_diciembre = new javax.swing.JTextField();
+        materias_enero = new javax.swing.JTextField();
+        combustibles_enero = new javax.swing.JTextField();
+        combustibles_diciembre = new javax.swing.JTextField();
+        terminados_enero = new javax.swing.JTextField();
+        terminados_diciembre = new javax.swing.JTextField();
+        proceso_enero = new javax.swing.JTextField();
+        proceso_diciembre = new javax.swing.JTextField();
+        mercaderia_enero = new javax.swing.JTextField();
+        mercaderia_diciembre = new javax.swing.JTextField();
+        bienes_enero = new javax.swing.JTextField();
+        bienes_diciembre = new javax.swing.JTextField();
         tabmaterias = new javax.swing.JPanel();
         jPanel11 = new javax.swing.JPanel();
         jLabel31 = new javax.swing.JLabel();
@@ -502,7 +577,7 @@ public class Gestion_Crear extends javax.swing.JFrame {
             }
         });
         jPanel7.add(guardar_sueldo);
-        guardar_sueldo.setBounds(610, 480, 370, 23);
+        guardar_sueldo.setBounds(740, 480, 370, 23);
 
         jButton1.setText("LIMPIAR");
         jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -677,6 +752,15 @@ public class Gestion_Crear extends javax.swing.JFrame {
         });
         jPanel7.add(socios_Shombres);
         socios_Shombres.setBounds(920, 550, 190, 20);
+
+        jButton2.setText("LIMPIAR");
+        jButton2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton2MouseClicked(evt);
+            }
+        });
+        jPanel7.add(jButton2);
+        jButton2.setBounds(610, 480, 120, 23);
 
         tabubicacion.add(jPanel7);
         jPanel7.setBounds(0, 0, 1490, 690);
@@ -991,13 +1075,7 @@ public class Gestion_Crear extends javax.swing.JFrame {
 
         tabla_combustible.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {"Gasolina", null, null, null},
-                {"Diesel", null, null, null},
-                {"Residuo (PUEL OIL)", null, null, null},
-                {"Gas Licuado (LPG)", null, null, null},
-                {"Aceites", null, null, null},
-                {"Grasas", null, null, null},
-                {"Otros", null, null, null}
+
             },
             new String [] {
                 "Concepto", "Unidad de Medida", "Cantidad", "Valor"
@@ -1035,7 +1113,7 @@ public class Gestion_Crear extends javax.swing.JFrame {
         }
 
         tabcombustible.add(jScrollPane1);
-        jScrollPane1.setBounds(40, 110, 470, 150);
+        jScrollPane1.setBounds(40, 110, 460, 20);
 
         jLabel21.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
         jLabel21.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -1045,12 +1123,7 @@ public class Gestion_Crear extends javax.swing.JFrame {
 
         tabla_impuesto.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {"Impuestos al valor agregado (IVA) cobrado 12%", null},
-                {"Impuesto al valor agregado (IVA) pagado 12%", null},
-                {"Impuestos a los consumos especiales ICE", null},
-                {"Impuesto predial", null},
-                {"Otros Impuestos", null},
-                {"Total", null}
+
             },
             new String [] {
                 "Concepto", "Imp_valor"
@@ -1075,23 +1148,17 @@ public class Gestion_Crear extends javax.swing.JFrame {
         }
 
         tabcombustible.add(jScrollPane5);
-        jScrollPane5.setBounds(130, 340, 390, 130);
+        jScrollPane5.setBounds(130, 340, 380, 20);
 
         jLabel24.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
         jLabel24.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel24.setText("IMPUESTOS");
         tabcombustible.add(jLabel24);
-        jLabel24.setBounds(200, 290, 240, 28);
+        jLabel24.setBounds(200, 300, 240, 28);
 
         tabla_inventarios.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {"Materias primas, materiales auxiliares, repuestos y accesorios, envases y embalajes", null, null},
-                {"Combustibles y lubricantes", null, null},
-                {"Productos terminados", null, null},
-                {"Productos en procesos", null, null},
-                {"Mercaderias", null, null},
-                {"Otros bienes", null, null},
-                {"Total", null, null}
+
             },
             new String [] {
                 "Concepto", "Saldo Enero", "Saldo Diciembre"
@@ -1126,7 +1193,7 @@ public class Gestion_Crear extends javax.swing.JFrame {
         }
 
         tabcombustible.add(jScrollPane6);
-        jScrollPane6.setBounds(580, 100, 710, 150);
+        jScrollPane6.setBounds(580, 110, 700, 20);
 
         CREARBOTONGUARDAR7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gestionempresas/IconoGuardar.jpg"))); // NOI18N
         CREARBOTONGUARDAR7.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -1145,11 +1212,7 @@ public class Gestion_Crear extends javax.swing.JFrame {
 
         tabla_energia.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {"Energìa elèctrica producida y consumida", null, null, null},
-                {"Energìa elèctrica comprada", null, null, null},
-                {"Agua comprada de red pùblica", null, null, null},
-                {"Agua concesionada de fuente natural", null, null, null},
-                {"Total", null, null, null}
+
             },
             new String [] {
                 "Concepto", "Unidad de medida", "Cantidad", "Valor"
@@ -1187,7 +1250,7 @@ public class Gestion_Crear extends javax.swing.JFrame {
         }
 
         tabcombustible.add(jScrollPane7);
-        jScrollPane7.setBounds(590, 340, 660, 110);
+        jScrollPane7.setBounds(590, 330, 650, 20);
         tabcombustible.add(ANIO1);
         ANIO1.setBounds(1070, 20, 70, 20);
 
@@ -1195,8 +1258,517 @@ public class Gestion_Crear extends javax.swing.JFrame {
         tabcombustible.add(jLabel68);
         jLabel68.setBounds(980, 20, 90, 14);
 
+        jLabel80.setText("Otros");
+        tabcombustible.add(jLabel80);
+        jLabel80.setBounds(40, 250, 150, 14);
+
+        gasolina_val.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                gasolina_valKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(gasolina_val);
+        gasolina_val.setBounds(400, 130, 100, 20);
+
+        gasolina_UM.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                gasolina_UMKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(gasolina_UM);
+        gasolina_UM.setBounds(190, 130, 110, 20);
+
+        gasolina_Cant.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                gasolina_CantKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(gasolina_Cant);
+        gasolina_Cant.setBounds(300, 130, 100, 20);
+
+        jLabel81.setText("Gasolina");
+        tabcombustible.add(jLabel81);
+        jLabel81.setBounds(40, 130, 150, 14);
+
+        jLabel82.setText("Grasas");
+        tabcombustible.add(jLabel82);
+        jLabel82.setBounds(40, 230, 150, 14);
+
+        jLabel83.setText("Aceites");
+        tabcombustible.add(jLabel83);
+        jLabel83.setBounds(40, 210, 35, 14);
+
+        jLabel84.setText("Gas Licuado (LPG)");
+        tabcombustible.add(jLabel84);
+        jLabel84.setBounds(40, 190, 150, 14);
+
+        jLabel85.setText("Residuo (PUEL OIL)");
+        tabcombustible.add(jLabel85);
+        jLabel85.setBounds(40, 170, 150, 14);
+
+        jLabel86.setText("Diesel");
+        tabcombustible.add(jLabel86);
+        jLabel86.setBounds(40, 150, 150, 14);
+
+        diesel_UM.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                diesel_UMKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(diesel_UM);
+        diesel_UM.setBounds(190, 150, 110, 20);
+
+        diesel_cant.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                diesel_cantKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(diesel_cant);
+        diesel_cant.setBounds(300, 150, 100, 20);
+
+        diesel_val.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                diesel_valKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(diesel_val);
+        diesel_val.setBounds(400, 150, 100, 20);
+
+        residuo_um.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                residuo_umKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(residuo_um);
+        residuo_um.setBounds(190, 170, 110, 20);
+
+        residuo_cant.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                residuo_cantKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(residuo_cant);
+        residuo_cant.setBounds(300, 170, 100, 20);
+
+        residuo_val.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                residuo_valKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(residuo_val);
+        residuo_val.setBounds(400, 170, 100, 20);
+
+        gas_um.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                gas_umKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(gas_um);
+        gas_um.setBounds(190, 190, 110, 20);
+
+        gas_cant.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                gas_cantKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(gas_cant);
+        gas_cant.setBounds(300, 190, 100, 20);
+
+        gas_val.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                gas_valKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(gas_val);
+        gas_val.setBounds(400, 190, 100, 20);
+
+        aceite_UM.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                aceite_UMKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(aceite_UM);
+        aceite_UM.setBounds(190, 210, 110, 20);
+
+        aceite_cant.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                aceite_cantKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(aceite_cant);
+        aceite_cant.setBounds(300, 210, 100, 20);
+
+        aceite_val.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                aceite_valKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(aceite_val);
+        aceite_val.setBounds(400, 210, 100, 20);
+
+        grasas_UM.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                grasas_UMKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(grasas_UM);
+        grasas_UM.setBounds(190, 230, 110, 20);
+
+        grasa_cant.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                grasa_cantKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(grasa_cant);
+        grasa_cant.setBounds(300, 230, 100, 20);
+
+        grasa_val.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                grasa_valKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(grasa_val);
+        grasa_val.setBounds(400, 230, 100, 20);
+
+        otros_UM.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                otros_UMKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(otros_UM);
+        otros_UM.setBounds(190, 250, 110, 20);
+
+        otros_cant.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                otros_cantKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(otros_cant);
+        otros_cant.setBounds(300, 250, 100, 20);
+
+        impuetos_netos_val.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                impuetos_netos_valKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(impuetos_netos_val);
+        impuetos_netos_val.setBounds(410, 470, 100, 20);
+
+        jLabel87.setText("Impuestos Netos");
+        tabcombustible.add(jLabel87);
+        jLabel87.setBounds(130, 470, 280, 14);
+
+        jLabel88.setText("Impuestos al valor agregado (IVA) cobrado 12%");
+        tabcombustible.add(jLabel88);
+        jLabel88.setBounds(130, 370, 280, 14);
+
+        jLabel89.setText("Impuestos al valor agregado (IVA) pagado 12%");
+        tabcombustible.add(jLabel89);
+        jLabel89.setBounds(130, 390, 280, 14);
+
+        jLabel90.setText("Impuestos a los consumos especialesICE");
+        tabcombustible.add(jLabel90);
+        jLabel90.setBounds(130, 410, 280, 14);
+
+        jLabel91.setText("Impuesto predial");
+        tabcombustible.add(jLabel91);
+        jLabel91.setBounds(130, 430, 280, 14);
+
+        jLabel92.setText("Otros impuestos");
+        tabcombustible.add(jLabel92);
+        jLabel92.setBounds(130, 450, 280, 14);
+
+        otros_val.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                otros_valKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(otros_val);
+        otros_val.setBounds(400, 250, 100, 20);
+
+        iva_cobrado.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                iva_cobradoKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(iva_cobrado);
+        iva_cobrado.setBounds(410, 370, 100, 20);
+
+        iva_pagado.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                iva_pagadoKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(iva_pagado);
+        iva_pagado.setBounds(410, 390, 100, 20);
+
+        ice_val.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                ice_valKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(ice_val);
+        ice_val.setBounds(410, 410, 100, 20);
+
+        impuesto_predial_val.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                impuesto_predial_valKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(impuesto_predial_val);
+        impuesto_predial_val.setBounds(410, 430, 100, 20);
+
+        otros_impuestos_val.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                otros_impuestos_valKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(otros_impuestos_val);
+        otros_impuestos_val.setBounds(410, 450, 100, 20);
+
+        limpiar_combustibles.setText("LIMPIAR");
+        limpiar_combustibles.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                limpiar_combustiblesMouseClicked(evt);
+            }
+        });
+        tabcombustible.add(limpiar_combustibles);
+        limpiar_combustibles.setBounds(1170, 20, 100, 23);
+
+        jLabel93.setText("Agua concesionada defuente natural");
+        tabcombustible.add(jLabel93);
+        jLabel93.setBounds(590, 420, 250, 14);
+
+        energia_producida_val.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                energia_producida_valKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(energia_producida_val);
+        energia_producida_val.setBounds(1140, 360, 100, 20);
+
+        jLabel94.setText("Energía eléctrica producida y consumida");
+        tabcombustible.add(jLabel94);
+        jLabel94.setBounds(590, 360, 250, 14);
+
+        jLabel95.setText("Energía eléctrica comprada");
+        tabcombustible.add(jLabel95);
+        jLabel95.setBounds(590, 380, 250, 14);
+
+        jLabel96.setText("Agua compradade red pública");
+        tabcombustible.add(jLabel96);
+        jLabel96.setBounds(590, 400, 250, 14);
+
+        energia_producida_UM.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                energia_producida_UMKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(energia_producida_UM);
+        energia_producida_UM.setBounds(840, 360, 200, 20);
+
+        energia_producida_cant.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                energia_producida_cantKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(energia_producida_cant);
+        energia_producida_cant.setBounds(1040, 360, 100, 20);
+
+        energia_comprada_UM.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                energia_comprada_UMKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(energia_comprada_UM);
+        energia_comprada_UM.setBounds(840, 380, 200, 20);
+
+        energia_comprada_cant.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                energia_comprada_cantKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(energia_comprada_cant);
+        energia_comprada_cant.setBounds(1040, 380, 100, 20);
+
+        energia_comprada_val.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                energia_comprada_valKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(energia_comprada_val);
+        energia_comprada_val.setBounds(1140, 380, 100, 20);
+
+        agua_potable_UM.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                agua_potable_UMKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(agua_potable_UM);
+        agua_potable_UM.setBounds(840, 400, 200, 20);
+
+        agua_potable_cant.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                agua_potable_cantKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(agua_potable_cant);
+        agua_potable_cant.setBounds(1040, 400, 100, 20);
+
+        agua_potable_val.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                agua_potable_valKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(agua_potable_val);
+        agua_potable_val.setBounds(1140, 400, 100, 20);
+
+        agua_natural_UM.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                agua_natural_UMKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(agua_natural_UM);
+        agua_natural_UM.setBounds(840, 420, 200, 20);
+
+        agua_natural_cant.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                agua_natural_cantKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(agua_natural_cant);
+        agua_natural_cant.setBounds(1040, 420, 100, 20);
+
+        agua_natural_val.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                agua_natural_valKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(agua_natural_val);
+        agua_natural_val.setBounds(1140, 420, 100, 20);
+
+        jLabel97.setText("Otros bienes");
+        tabcombustible.add(jLabel97);
+        jLabel97.setBounds(580, 230, 500, 14);
+
+        jLabel98.setText("Materias primas, materales auxiliares, repuestos y accesorios, envases y embalajes");
+        tabcombustible.add(jLabel98);
+        jLabel98.setBounds(580, 130, 500, 14);
+
+        jLabel99.setText("Combustibles y lubricantes");
+        tabcombustible.add(jLabel99);
+        jLabel99.setBounds(580, 150, 500, 14);
+
+        jLabel100.setText("Productos terminados");
+        tabcombustible.add(jLabel100);
+        jLabel100.setBounds(580, 170, 500, 14);
+
+        jLabel101.setText("Productos en proceso");
+        tabcombustible.add(jLabel101);
+        jLabel101.setBounds(580, 190, 500, 14);
+
+        jLabel102.setText("Mercaderia");
+        tabcombustible.add(jLabel102);
+        jLabel102.setBounds(580, 210, 500, 14);
+
+        materias_diciembre.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                materias_diciembreKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(materias_diciembre);
+        materias_diciembre.setBounds(1180, 130, 100, 20);
+
+        materias_enero.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                materias_eneroKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(materias_enero);
+        materias_enero.setBounds(1080, 130, 100, 20);
+
+        combustibles_enero.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                combustibles_eneroKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(combustibles_enero);
+        combustibles_enero.setBounds(1080, 150, 100, 20);
+
+        combustibles_diciembre.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                combustibles_diciembreKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(combustibles_diciembre);
+        combustibles_diciembre.setBounds(1180, 150, 100, 20);
+
+        terminados_enero.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                terminados_eneroKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(terminados_enero);
+        terminados_enero.setBounds(1080, 170, 100, 20);
+
+        terminados_diciembre.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                terminados_diciembreKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(terminados_diciembre);
+        terminados_diciembre.setBounds(1180, 170, 100, 20);
+
+        proceso_enero.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                proceso_eneroKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(proceso_enero);
+        proceso_enero.setBounds(1080, 190, 100, 20);
+
+        proceso_diciembre.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                proceso_diciembreKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(proceso_diciembre);
+        proceso_diciembre.setBounds(1180, 190, 100, 20);
+
+        mercaderia_enero.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                mercaderia_eneroKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(mercaderia_enero);
+        mercaderia_enero.setBounds(1080, 210, 100, 20);
+
+        mercaderia_diciembre.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                mercaderia_diciembreKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(mercaderia_diciembre);
+        mercaderia_diciembre.setBounds(1180, 210, 100, 20);
+
+        bienes_enero.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                bienes_eneroKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(bienes_enero);
+        bienes_enero.setBounds(1080, 230, 100, 20);
+
+        bienes_diciembre.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                bienes_diciembreKeyTyped(evt);
+            }
+        });
+        tabcombustible.add(bienes_diciembre);
+        bienes_diciembre.setBounds(1180, 230, 100, 20);
+
         tabcombustibles.add(tabcombustible);
-        tabcombustible.setBounds(0, 0, 1480, 650);
+        tabcombustible.setBounds(-10, 0, 1480, 650);
 
         tab.addTab("COMBUSTIBLES E IMPUESTOS", tabcombustibles);
 
@@ -1967,7 +2539,13 @@ public class Gestion_Crear extends javax.swing.JFrame {
     ingreso_modificacion im = new ingreso_modificacion();
     
     private void CREARBOTONGUARDAR7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_CREARBOTONGUARDAR7MouseClicked
-        // TODO add your handling code here:
+        if(Integer.parseInt(ANIO1.getValue().toString()) > 0){
+            im.ingreso_cONBUSTIBLES(ruc.getText(), Integer.parseInt(ANIO1.getValue().toString()), gasolina_UM.getText(), Integer.parseInt(gasolina_Cant.getText()), Integer.parseInt(gasolina_val.getText()), diesel_UM.getText(), Integer.parseInt(diesel_cant.getText()), Integer.parseInt(diesel_val.getText()), residuo_um.getText(), Integer.parseInt(residuo_cant.getText()), Integer.parseInt(residuo_val.getText()),gas_um.getText(), Integer.parseInt(gas_cant.getText()), Integer.parseInt(gas_val.getText()), aceite_UM.getText(), Integer.parseInt(aceite_cant.getText()), Integer.parseInt(aceite_val.getText()), grasas_UM.getText(), Integer.parseInt(grasa_cant.getText()), Integer.parseInt(grasa_val.getText()), otros_UM.getText(), Integer.parseInt(otros_cant.getText()), Integer.parseInt(otros_val.getText()));
+            im.ingreso_Impuestos(ruc.getText(), Integer.parseInt(ANIO1.getValue().toString()), Integer.parseInt(iva_cobrado.getText()), Integer.parseInt(iva_pagado.getText()), Integer.parseInt(ice_val.getText()), Integer.parseInt(impuesto_predial_val.getText()), Integer.parseInt(otros_impuestos_val.getText()), Integer.parseInt(impuetos_netos_val.getText()));
+            im.ingreso_Electricidad(ruc.getText(), Integer.parseInt(ANIO1.getValue().toString()), energia_producida_UM.getText(), Integer.parseInt(energia_producida_cant.getText()), Integer.parseInt(energia_producida_val.getText()), energia_comprada_UM.getText(), Integer.parseInt(energia_comprada_cant.getText()), Integer.parseInt(energia_comprada_val.getText()), agua_potable_UM.getText(), Integer.parseInt(agua_potable_cant.getText()), Integer.parseInt(agua_potable_val.getText()), agua_natural_UM.getText(),Integer.parseInt(agua_natural_cant.getText()), Integer.parseInt(agua_natural_val.getText()));
+            im.ingreso_Inventario(ruc.getText(), Integer.parseInt(ANIO1.getValue().toString()), Integer.parseInt(materias_enero.getText()),Integer.parseInt(materias_diciembre.getText()), Integer.parseInt(combustibles_enero.getText()), Integer.parseInt(combustibles_diciembre.getText()), Integer.parseInt(terminados_enero.getText()), Integer.parseInt(terminados_diciembre.getText()), Integer.parseInt(proceso_enero.getText()), Integer.parseInt(proceso_diciembre.getText()), Integer.parseInt(mercaderia_enero.getText()), Integer.parseInt(mercaderia_diciembre.getText()), Integer.parseInt(bienes_enero.getText()), Integer.parseInt(bienes_diciembre.getText()));
+            JOptionPane.showMessageDialog(this, "Los datos de Combustibles e Impuestos de la Empresa "+razonsocial.getText()+" en el año "+ANIO1.getValue().toString()+" han sido creada correctamente");
+        }
     }//GEN-LAST:event_CREARBOTONGUARDAR7MouseClicked
 
     private void btnconsultarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnconsultarMouseClicked
@@ -2062,10 +2640,10 @@ public class Gestion_Crear extends javax.swing.JFrame {
         pagina.setText(null);
         actividad_principal.setText(null);
         actividad_secundaria.setText(null);
-        constitucion.setValue(null);
-        establecimientos.setValue(null);
-        ventas_mayor.setValue(null);
-        ventas_menor.setValue(null);
+        constitucion.setValue(0);
+        establecimientos.setValue(0);
+        ventas_mayor.setValue(0);
+        ventas_menor.setValue(0);                               
     }
     
     private void buscarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buscarMouseClicked
@@ -2304,6 +2882,325 @@ public class Gestion_Crear extends javax.swing.JFrame {
         if(c < '0' || c > '9')evt.consume();
     }//GEN-LAST:event_obrero_ShombresKeyTyped
 
+    private void gasolina_valKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_gasolina_valKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_gasolina_valKeyTyped
+
+    private void gasolina_UMKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_gasolina_UMKeyTyped
+        // TODO add your handling code here:
+    }//GEN-LAST:event_gasolina_UMKeyTyped
+
+    private void gasolina_CantKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_gasolina_CantKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_gasolina_CantKeyTyped
+
+    private void diesel_UMKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_diesel_UMKeyTyped
+        // TODO add your handling code here:
+    }//GEN-LAST:event_diesel_UMKeyTyped
+
+    private void diesel_cantKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_diesel_cantKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_diesel_cantKeyTyped
+
+    private void diesel_valKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_diesel_valKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_diesel_valKeyTyped
+
+    private void residuo_umKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_residuo_umKeyTyped
+        // TODO add your handling code here:
+    }//GEN-LAST:event_residuo_umKeyTyped
+
+    private void residuo_cantKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_residuo_cantKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_residuo_cantKeyTyped
+
+    private void residuo_valKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_residuo_valKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_residuo_valKeyTyped
+
+    private void gas_umKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_gas_umKeyTyped
+        // TODO add your handling code here:
+    }//GEN-LAST:event_gas_umKeyTyped
+
+    private void gas_cantKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_gas_cantKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_gas_cantKeyTyped
+
+    private void gas_valKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_gas_valKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_gas_valKeyTyped
+
+    private void aceite_UMKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_aceite_UMKeyTyped
+        // TODO add your handling code here:
+    }//GEN-LAST:event_aceite_UMKeyTyped
+
+    private void aceite_cantKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_aceite_cantKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_aceite_cantKeyTyped
+
+    private void aceite_valKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_aceite_valKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_aceite_valKeyTyped
+
+    private void grasas_UMKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_grasas_UMKeyTyped
+        // TODO add your handling code here:
+    }//GEN-LAST:event_grasas_UMKeyTyped
+
+    private void grasa_cantKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_grasa_cantKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_grasa_cantKeyTyped
+
+    private void grasa_valKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_grasa_valKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_grasa_valKeyTyped
+
+    private void otros_UMKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_otros_UMKeyTyped
+        // TODO add your handling code here:
+    }//GEN-LAST:event_otros_UMKeyTyped
+
+    private void otros_cantKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_otros_cantKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_otros_cantKeyTyped
+
+    private void otros_valKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_otros_valKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_otros_valKeyTyped
+
+    private void iva_cobradoKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_iva_cobradoKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_iva_cobradoKeyTyped
+
+    private void iva_pagadoKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_iva_pagadoKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_iva_pagadoKeyTyped
+
+    private void ice_valKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_ice_valKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_ice_valKeyTyped
+
+    private void impuesto_predial_valKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_impuesto_predial_valKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_impuesto_predial_valKeyTyped
+
+    private void otros_impuestos_valKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_otros_impuestos_valKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_otros_impuestos_valKeyTyped
+
+    private void impuetos_netos_valKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_impuetos_netos_valKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_impuetos_netos_valKeyTyped
+
+    private void limpiar_combustiblesMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_limpiar_combustiblesMouseClicked
+        ANIO1.setValue(0);
+        gasolina_UM.setText("");
+        gasolina_Cant.setText("");
+        gasolina_val.setText("");
+        diesel_UM.setText("");
+        diesel_cant.setText("");
+        diesel_val.setText("");
+        residuo_cant.setText("");
+        residuo_um.setText("");
+        residuo_val.setText("");
+        gas_cant.setText("");
+        grasas_UM.setText("");
+        grasa_cant.setText("");
+        grasa_val.setText("");
+        gas_um.setText("");
+        gas_val.setText("");
+        aceite_UM.setText("");
+        aceite_cant.setText("");
+        aceite_val.setText("");
+        otros_UM.setText("");
+        otros_cant.setText("");
+        otros_val.setText("");
+        iva_cobrado.setText("");
+        iva_pagado.setText("");
+        ice_val.setText("");
+        impuesto_predial_val.setText("");
+        impuetos_netos_val.setText("");
+        otros_impuestos_val.setText("");                
+        energia_producida_UM.setText("");
+        energia_producida_cant.setText("");
+        energia_producida_val.setText("");
+        energia_comprada_UM.setText("");
+        energia_comprada_cant.setText("");
+        energia_comprada_val.setText(""); 
+        agua_potable_UM.setText("");
+        agua_potable_cant.setText("");
+        agua_potable_val.setText("");
+        agua_natural_UM.setText("");
+        agua_natural_cant.setText("");
+        agua_natural_val.setText("");
+        materias_enero.setText("");
+        materias_diciembre.setText("");
+        combustibles_enero.setText("");
+        combustibles_diciembre.setText("");
+        terminados_enero.setText("");
+        terminados_diciembre.setText("");
+        proceso_enero.setText("");
+        proceso_diciembre.setText("");
+        mercaderia_enero.setText("");
+        mercaderia_diciembre.setText("");
+        bienes_enero.setText("");
+        bienes_diciembre.setText("");
+    }//GEN-LAST:event_limpiar_combustiblesMouseClicked
+
+    private void energia_producida_valKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_energia_producida_valKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_energia_producida_valKeyTyped
+
+    private void energia_producida_UMKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_energia_producida_UMKeyTyped
+        // TODO add your handling code here:
+    }//GEN-LAST:event_energia_producida_UMKeyTyped
+
+    private void energia_producida_cantKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_energia_producida_cantKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_energia_producida_cantKeyTyped
+
+    private void energia_comprada_UMKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_energia_comprada_UMKeyTyped
+        // TODO add your handling code here:
+    }//GEN-LAST:event_energia_comprada_UMKeyTyped
+
+    private void energia_comprada_cantKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_energia_comprada_cantKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_energia_comprada_cantKeyTyped
+
+    private void energia_comprada_valKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_energia_comprada_valKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_energia_comprada_valKeyTyped
+
+    private void agua_potable_UMKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_agua_potable_UMKeyTyped
+        // TODO add your handling code here:
+    }//GEN-LAST:event_agua_potable_UMKeyTyped
+
+    private void agua_potable_cantKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_agua_potable_cantKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_agua_potable_cantKeyTyped
+
+    private void agua_potable_valKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_agua_potable_valKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_agua_potable_valKeyTyped
+
+    private void agua_natural_UMKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_agua_natural_UMKeyTyped
+        // TODO add your handling code here:
+    }//GEN-LAST:event_agua_natural_UMKeyTyped
+
+    private void agua_natural_cantKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_agua_natural_cantKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_agua_natural_cantKeyTyped
+
+    private void agua_natural_valKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_agua_natural_valKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_agua_natural_valKeyTyped
+
+    private void materias_diciembreKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_materias_diciembreKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_materias_diciembreKeyTyped
+
+    private void materias_eneroKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_materias_eneroKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_materias_eneroKeyTyped
+
+    private void combustibles_eneroKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_combustibles_eneroKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_combustibles_eneroKeyTyped
+
+    private void combustibles_diciembreKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_combustibles_diciembreKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_combustibles_diciembreKeyTyped
+
+    private void terminados_eneroKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_terminados_eneroKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_terminados_eneroKeyTyped
+
+    private void terminados_diciembreKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_terminados_diciembreKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_terminados_diciembreKeyTyped
+
+    private void proceso_eneroKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_proceso_eneroKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_proceso_eneroKeyTyped
+
+    private void proceso_diciembreKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_proceso_diciembreKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_proceso_diciembreKeyTyped
+
+    private void mercaderia_eneroKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_mercaderia_eneroKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_mercaderia_eneroKeyTyped
+
+    private void mercaderia_diciembreKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_mercaderia_diciembreKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_mercaderia_diciembreKeyTyped
+
+    private void bienes_eneroKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_bienes_eneroKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_bienes_eneroKeyTyped
+
+    private void bienes_diciembreKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_bienes_diciembreKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_bienes_diciembreKeyTyped
+
+    private void jButton2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseClicked
+        ANIO8.setValue(0);
+        socios_tmujeres.setText("");
+        socios_Smujeres.setText(""); 
+        socios_thombres.setText("");
+        socios_Shombres.setText("");
+        ejecutivos_tmujeres.setText(""); 
+        ejecutivos_Smujeres.setText("");
+        ejecutivos_thombres.setText("");
+        ejecutivos_Shombres.setText(""); 
+        obrero_tmujeres.setText("");
+        obrero_Smujeres.setText(""); 
+        obrero_thombres.setText(""); 
+        obrero_Shombres.setText(""); 
+        empleado_tmujeres.setText(""); 
+        empleado_Smujeres.setText(""); 
+        empleado_thombres.setText(""); 
+        empleado_Shombres.setText("");
+    }//GEN-LAST:event_jButton2MouseClicked
+
     /**
      * @param args the command line arguments
      */
@@ -2330,11 +3227,11 @@ public class Gestion_Crear extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(Gestion_Crear.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
-
+        
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Gestion_Crear().setVisible(true);
+                new Gestion_Crear().setVisible(true);                
             }
         });
     }
@@ -2355,18 +3252,34 @@ public class Gestion_Crear extends javax.swing.JFrame {
     private javax.swing.JButton CREARBOTONGUARDAR7;
     private javax.swing.JButton CREARBOTONGUARDAR8;
     private javax.swing.JButton CREARBOTONGUARDAR9;
+    private javax.swing.JTextField aceite_UM;
+    private javax.swing.JTextField aceite_cant;
+    private javax.swing.JTextField aceite_val;
     private javax.swing.JTextField actividad_principal;
     private javax.swing.JTextField actividad_secundaria;
     private javax.swing.JButton agregar;
     private javax.swing.JButton agregar_mercaderia;
     private javax.swing.JButton agregar_producto;
+    private javax.swing.JTextField agua_natural_UM;
+    private javax.swing.JTextField agua_natural_cant;
+    private javax.swing.JTextField agua_natural_val;
+    private javax.swing.JTextField agua_potable_UM;
+    private javax.swing.JTextField agua_potable_cant;
+    private javax.swing.JTextField agua_potable_val;
+    private javax.swing.JTextField bienes_diciembre;
+    private javax.swing.JTextField bienes_enero;
     private javax.swing.JButton btncancelar;
     private javax.swing.JButton btnconsultar;
     private javax.swing.JButton btncrear;
     private javax.swing.JButton btnguardar1;
     private javax.swing.JButton buscar;
     private javax.swing.JComboBox canton;
+    private javax.swing.JTextField combustibles_diciembre;
+    private javax.swing.JTextField combustibles_enero;
     private javax.swing.JSpinner constitucion;
+    private javax.swing.JTextField diesel_UM;
+    private javax.swing.JTextField diesel_cant;
+    private javax.swing.JTextField diesel_val;
     private javax.swing.JTextField direccion;
     private javax.swing.JTextField ejecutivos_Shombres;
     private javax.swing.JTextField ejecutivos_Smujeres;
@@ -2377,13 +3290,37 @@ public class Gestion_Crear extends javax.swing.JFrame {
     private javax.swing.JTextField empleado_Smujeres;
     private javax.swing.JTextField empleado_thombres;
     private javax.swing.JTextField empleado_tmujeres;
+    private javax.swing.JTextField energia_comprada_UM;
+    private javax.swing.JTextField energia_comprada_cant;
+    private javax.swing.JTextField energia_comprada_val;
+    private javax.swing.JTextField energia_producida_UM;
+    private javax.swing.JTextField energia_producida_cant;
+    private javax.swing.JTextField energia_producida_val;
     private javax.swing.JSpinner establecimientos;
     private javax.swing.JTextField fax;
+    private javax.swing.JTextField gas_cant;
+    private javax.swing.JTextField gas_um;
+    private javax.swing.JTextField gas_val;
+    private javax.swing.JTextField gasolina_Cant;
+    private javax.swing.JTextField gasolina_UM;
+    private javax.swing.JTextField gasolina_val;
+    private javax.swing.JTextField grasa_cant;
+    private javax.swing.JTextField grasa_val;
+    private javax.swing.JTextField grasas_UM;
     private javax.swing.JButton guardar_sueldo;
+    private javax.swing.JTextField ice_val;
     private javax.swing.JTextField ide;
+    private javax.swing.JTextField impuesto_predial_val;
+    private javax.swing.JTextField impuetos_netos_val;
+    private javax.swing.JTextField iva_cobrado;
+    private javax.swing.JTextField iva_pagado;
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel100;
+    private javax.swing.JLabel jLabel101;
+    private javax.swing.JLabel jLabel102;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
@@ -2460,7 +3397,27 @@ public class Gestion_Crear extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel78;
     private javax.swing.JLabel jLabel79;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel80;
+    private javax.swing.JLabel jLabel81;
+    private javax.swing.JLabel jLabel82;
+    private javax.swing.JLabel jLabel83;
+    private javax.swing.JLabel jLabel84;
+    private javax.swing.JLabel jLabel85;
+    private javax.swing.JLabel jLabel86;
+    private javax.swing.JLabel jLabel87;
+    private javax.swing.JLabel jLabel88;
+    private javax.swing.JLabel jLabel89;
     private javax.swing.JLabel jLabel9;
+    private javax.swing.JLabel jLabel90;
+    private javax.swing.JLabel jLabel91;
+    private javax.swing.JLabel jLabel92;
+    private javax.swing.JLabel jLabel93;
+    private javax.swing.JLabel jLabel94;
+    private javax.swing.JLabel jLabel95;
+    private javax.swing.JLabel jLabel96;
+    private javax.swing.JLabel jLabel97;
+    private javax.swing.JLabel jLabel98;
+    private javax.swing.JLabel jLabel99;
     private javax.swing.JPanel jPanel11;
     private javax.swing.JPanel jPanel12;
     private javax.swing.JPanel jPanel13;
@@ -2501,7 +3458,12 @@ public class Gestion_Crear extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField35;
     private javax.swing.JTextField jTextField36;
     private javax.swing.JTextField jTextField37;
+    private javax.swing.JButton limpiar_combustibles;
+    private javax.swing.JTextField materias_diciembre;
+    private javax.swing.JTextField materias_enero;
     private javax.swing.JTextField medida_producto;
+    private javax.swing.JTextField mercaderia_diciembre;
+    private javax.swing.JTextField mercaderia_enero;
     private javax.swing.JTextField nd0;
     private javax.swing.JSpinner nd1cantidad;
     private javax.swing.JTextField nd1valor;
@@ -2527,9 +3489,18 @@ public class Gestion_Crear extends javax.swing.JFrame {
     private javax.swing.JTextField obrero_Smujeres;
     private javax.swing.JTextField obrero_thombres;
     private javax.swing.JTextField obrero_tmujeres;
+    private javax.swing.JTextField otros_UM;
+    private javax.swing.JTextField otros_cant;
+    private javax.swing.JTextField otros_impuestos_val;
+    private javax.swing.JTextField otros_val;
     private javax.swing.JTextField pagina;
+    private javax.swing.JTextField proceso_diciembre;
+    private javax.swing.JTextField proceso_enero;
     private javax.swing.JComboBox provincia;
     private javax.swing.JTextField razonsocial;
+    private javax.swing.JTextField residuo_cant;
+    private javax.swing.JTextField residuo_um;
+    private javax.swing.JTextField residuo_val;
     private javax.swing.JTextField ruc;
     private javax.swing.JComboBox sector;
     private javax.swing.JTextField socios_Shombres;
@@ -2556,6 +3527,8 @@ public class Gestion_Crear extends javax.swing.JFrame {
     private javax.swing.JPanel tabubicacion;
     private javax.swing.JPanel tabventas;
     private javax.swing.JTextField telefono;
+    private javax.swing.JTextField terminados_diciembre;
+    private javax.swing.JTextField terminados_enero;
     private javax.swing.JTextField unidad;
     private javax.swing.JTextField unidad_demedida;
     private javax.swing.JButton usar;
