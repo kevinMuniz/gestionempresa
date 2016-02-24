@@ -2016,7 +2016,7 @@ public class Gestion_Crear extends javax.swing.JFrame {
     private void CREARBOTONGUARDAR8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_CREARBOTONGUARDAR8MouseClicked
         if (Integer.parseInt(ANIO5.getValue().toString()) > 0)
         {
-            im.ingreso_HonorariosComisiones(ruc.getText(), Integer.parseInt(ANIO5.getValue().toString()), Integer.parseInt(jTable5.getValueAt(0,1).toString()), Integer.parseInt(jTable5.getValueAt(1,1).toString()), Integer.parseInt(jTable5.getValueAt(2,1).toString()), Integer.parseInt(jTable5.getValueAt(3,1).toString()), Integer.parseInt(jTable5.getValueAt(4,1).toString()), Integer.parseInt(jTable5.getValueAt(5,1).toString()));
+            //im.ingreso_HonorariosComisiones(ruc.getText(), Integer.parseInt(ANIO5.getValue().toString()), Integer.parseInt(jTable5.getValueAt(0,1).toString()), Integer.parseInt(jTable5.getValueAt(1,1).toString()), Integer.parseInt(jTable5.getValueAt(2,1).toString()), Integer.parseInt(jTable5.getValueAt(3,1).toString()), Integer.parseInt(jTable5.getValueAt(4,1).toString()), Integer.parseInt(jTable5.getValueAt(5,1).toString()));
             JOptionPane.showMessageDialog(this, Integer.parseInt(ANIO5.getValue().toString()) +" "+ Integer.parseInt(jTable5.getValueAt(0,1).toString()));
         }
     }//GEN-LAST:event_CREARBOTONGUARDAR8MouseClicked
