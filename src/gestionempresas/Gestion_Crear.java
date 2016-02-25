@@ -4615,12 +4615,36 @@ public class Gestion_Crear extends javax.swing.JFrame {
         nombre_producto.setBounds(230, 70, 800, 20);
         jPanel12.add(medida_producto);
         medida_producto.setBounds(580, 100, 110, 20);
+
+        nn.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                nnKeyTyped(evt);
+            }
+        });
         jPanel12.add(nn);
         nn.setBounds(230, 100, 100, 20);
+
+        nn1valor.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                nn1valorKeyTyped(evt);
+            }
+        });
         jPanel12.add(nn1valor);
         nn1valor.setBounds(420, 140, 90, 20);
+
+        nn2valor.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                nn2valorKeyTyped(evt);
+            }
+        });
         jPanel12.add(nn2valor);
         nn2valor.setBounds(800, 140, 80, 20);
+
+        nn3.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                nn3KeyTyped(evt);
+            }
+        });
         jPanel12.add(nn3);
         nn3.setBounds(790, 100, 110, 20);
         jPanel12.add(nn1cantidad);
@@ -6488,12 +6512,30 @@ public class Gestion_Crear extends javax.swing.JFrame {
         });
         jPanel14.add(nombre_mercaderia);
         nombre_mercaderia.setBounds(320, 50, 550, 20);
+
+        ide.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                ideKeyTyped(evt);
+            }
+        });
         jPanel14.add(ide);
         ide.setBounds(90, 100, 80, 20);
         jPanel14.add(unidad_demedida);
         unidad_demedida.setBounds(320, 100, 110, 20);
+
+        nm1valor.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                nm1valorKeyTyped(evt);
+            }
+        });
         jPanel14.add(nm1valor);
         nm1valor.setBounds(730, 100, 100, 20);
+
+        nm2valor.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                nm2valorKeyTyped(evt);
+            }
+        });
         jPanel14.add(nm2valor);
         nm2valor.setBounds(330, 150, 90, 20);
         jPanel14.add(nm2cantidad);
@@ -6579,18 +6621,16 @@ public class Gestion_Crear extends javax.swing.JFrame {
         tab.setEnabledAt(tab.indexOfComponent(tabcombustibles),true);
         tab.setEnabledAt(tab.indexOfComponent(TabPersonal),true);
         tab.setEnabledAt(tab.indexOfComponent(TabProductividad),true);*/
-        JOptionPane.showMessageDialog(this, "Datos Guardados con Exito!");
+        if (Integer.parseInt(ANIO4.getValue().toString()) > 0)
+        {
+            contador_p = 1;
+            im.ingreso_producionVenta(ruc.getText(), Integer.parseInt(ANIO4.getValue().toString()), producto, NN, UM_p, NN1_c, NN1_v, NN2_c, NN2_v, NN3);
+            JOptionPane.showMessageDialog(null,"Los datos de Produccion y Ventas de la Empresa "+razonsocial.getText()+" en el año "+ANIO4.getValue().toString()+" han sido creada correctamente");                        
+        }
     }//GEN-LAST:event_CREARBOTONGUARDAR6MouseClicked
 
     private void CREARBOTONGUARDAR5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_CREARBOTONGUARDAR5MouseClicked
-      /*  tab.setEnabledAt(tab.indexOfComponent(tabubicacion),false);
-        tab.setEnabledAt(tab.indexOfComponent(tabgastos),false);
-        tab.setSelectedIndex(tab.indexOfComponent(TabProductividad));
-        tab.setEnabledAt(tab.indexOfComponent(tabventas),false);
-        tab.setEnabledAt(tab.indexOfComponent(tabcombustibles),false);
-        tab.setEnabledAt(tab.indexOfComponent(TabPersonal),false);
-        tab.setEnabledAt(tab.indexOfComponent(TabProductividad),true);*/
-        if (Integer.parseInt(ANIO2.getValue().toString()) > 0)
+     if (Integer.parseInt(ANIO2.getValue().toString()) > 0)
         {
             contador = 1;
             im.ingreso_nombreMateriasPrimasAuxiliares(ruc.getText(), Integer.parseInt(ANIO2.getValue().toString()), descripcion_a, nd0_a, UM, nd1_a_c, nd1_a_v, nd2_a_c, nd2_a_v, nd3_a_c, nd3_a_v, nd4_a);
@@ -6707,7 +6747,17 @@ public class Gestion_Crear extends javax.swing.JFrame {
         }
         // TODO add your handling code here:
     }//GEN-LAST:event_agregarMouseClicked
-
+        
+        private String producto;
+        private String NN;
+        private String UM_p;
+        private String NN1_c;
+        private String NN1_v;
+        private String NN2_c;
+        private String NN2_v;
+        private String NN3;
+        private int contador_p = 1;
+    
     private void agregar_productoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_agregar_productoMouseClicked
       
        DefaultTableModel modelo = (DefaultTableModel) tabla_productos.getModel();
@@ -6721,6 +6771,30 @@ public class Gestion_Crear extends javax.swing.JFrame {
            datos[6]=nn2valor.getText();
            datos[7]=nn3.getText();
        modelo.addRow(datos);
+       
+       if(contador_p == 1)
+        {
+            producto ="'"+nombre_producto.getText()+"'";
+            NN =nn.getText();
+            UM_p ="'"+medida_producto.getText()+"'";
+            NN1_c = nn1cantidad.getValue().toString();
+            NN1_v = nn1valor.getText();
+            NN2_c = nn2cantidad.getValue().toString();
+            NN2_v = nn2valor.getText();
+            NN3 = nn3.getText();            
+            contador_p++;
+        }
+        else{
+            producto +=" ,'"+nombre_producto.getText()+"'";
+            NN +=" ,"+nn.getText();
+            UM_p +=" ,'"+medida_producto.getText()+"'";
+            NN1_c +=" ,"+ nn1cantidad.getValue().toString();
+            NN1_v +=" ,"+ nn1valor.getText();
+            NN2_c +=" ,"+ nn2cantidad.getValue().toString();
+            NN2_v +=" ,"+ nn2valor.getText();
+            NN3 +=" ,"+ nn3.getText();    
+                       
+        }
     }//GEN-LAST:event_agregar_productoMouseClicked
 
     private void CREARBOTONGUARDAR8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_CREARBOTONGUARDAR8MouseClicked
@@ -6757,13 +6831,27 @@ public class Gestion_Crear extends javax.swing.JFrame {
     }//GEN-LAST:event_CREARBOTONGUARDAR8ActionPerformed
 
     private void CREARBOTONGUARDAR9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_CREARBOTONGUARDAR9MouseClicked
-        // TODO add your handling code here:
+        if(Integer.parseInt(ANIO7.getValue().toString()) > 0)
+        {
+            contador_m = 1;
+            im.ingreso_costomercaderia(ruc.getText(), Integer.parseInt(ANIO7.getValue().toString()), mercaderia, ide_m, UM_m, NM1_c, NM1_v, NM2_c, NM2_v);
+            JOptionPane.showMessageDialog(null,"Los datos de Costos de Mercaderia de la Empresa "+razonsocial.getText()+" en el año "+ANIO2.getValue().toString()+" han sido creada correctamente");                        
+        }
     }//GEN-LAST:event_CREARBOTONGUARDAR9MouseClicked
 
     private void nombre_mercaderiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nombre_mercaderiaActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_nombre_mercaderiaActionPerformed
 
+    private String mercaderia;
+    private String ide_m;
+    private String UM_m;
+    private String NM1_c;
+    private String NM1_v;
+    private String NM2_c;
+    private String NM2_v;
+    private int contador_m=1;
+    
     private void agregar_mercaderiaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_agregar_mercaderiaMouseClicked
       DefaultTableModel modelo = (DefaultTableModel) tabla_mercaderias.getModel();
            Object [] datos=new Object[7]; 
@@ -6775,6 +6863,27 @@ public class Gestion_Crear extends javax.swing.JFrame {
            datos[5]=nm2cantidad.getValue();
            datos[6]=nm2valor.getText();
        modelo.addRow(datos);
+       
+       if(contador_m == 1)
+        {
+            mercaderia ="'"+nombre_mercaderia.getText()+"'";
+            ide_m =ide.getText();
+            UM_m ="'"+unidad_demedida.getText()+"'";
+            NM1_c = nm1cantidad.getValue().toString();
+            NM1_v = nm1valor.getText();
+            NM2_c =nm2cantidad.getValue().toString();            
+            NM2_v =nm2valor.getText();            
+            contador_m++;
+        }
+        else{
+            mercaderia +=" ,'"+nombre_mercaderia.getText()+"'";
+            ide_m +=" ,"+ide.getText();
+            UM_m +=" ,'"+unidad_demedida.getText()+"'";
+            NM1_c +=" ,"+ nm1cantidad.getValue().toString();
+            NM1_v +=" ,"+ nm1valor.getText();
+            NM2_c +=" ,"+nm2cantidad.getValue().toString();            
+            NM2_v +=" ,"+nm2valor.getText();            
+        }
     }//GEN-LAST:event_agregar_mercaderiaMouseClicked
 
     consulta cons = new consulta();
@@ -9462,6 +9571,41 @@ public class Gestion_Crear extends javax.swing.JFrame {
     private void agregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_agregarActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_agregarActionPerformed
+
+    private void nnKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_nnKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_nnKeyTyped
+
+    private void nn1valorKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_nn1valorKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_nn1valorKeyTyped
+
+    private void nn2valorKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_nn2valorKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_nn2valorKeyTyped
+
+    private void nn3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_nn3KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_nn3KeyTyped
+
+    private void ideKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_ideKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_ideKeyTyped
+
+    private void nm2valorKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_nm2valorKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_nm2valorKeyTyped
+
+    private void nm1valorKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_nm1valorKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_nm1valorKeyTyped
 
     /**
      * @param args the command line arguments

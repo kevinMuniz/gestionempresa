@@ -308,7 +308,7 @@ CREATE TABLE ventasCosto_Ventas(
 
 create table gastosoperacionalesotrosingresos
  (
-  Ruc_empresa varchar primary key not null,
+  Ruc_empresa varchar,
   anoContable int not null, 
   --
   gastosoperacionalestotal int not null,
@@ -469,11 +469,7 @@ create table gastosoperacionalesotrosingresos
 
   perdidacambiototal int not null,
   perdidacambiopais int not null,
-  perdidacambioexterior int not null,
-
-  constraint fk_gastos_Empresa foreign key (Ruc_empresa)
-  references IdentificacionUbicacionActividad(ruc)
-
+  perdidacambioexterior int not null
  );
 
 			-- VERIFICACION DE USUARIO
@@ -893,7 +889,7 @@ cost 100;
 
 --DROP TABLE nombreMateriasPrimasAuxiliares
 create table nombreMateriasPrimasAuxiliares(
-ruc varchar primary key not null,
+ruc varchar,
 anioRefernc int,
 --
 descripcion varchar[],
@@ -921,12 +917,12 @@ $BODY$
 language plpgsql volatile
 cost 1000;
 
---select InsertarMateriasPrimasAuxiliares ('1314853209001',2015,'{"Mantera","BONELA"}',array[12,3],'{"lb","ASD"}',array[2313,12],array[23,12],array[54,21],array[12,12],array[78,12],array[12,3],array[6,7]);
+--select InsertarMateriasPrimasAuxiliares ('1314853209001',2015,array['Mantera','BONELA'],array[12,3],'{"lb","ASD"}',array[2313,12],array[23,12],array[54,21],array[12,12],array[78,12],array[12,3],array[6,7]);
 --select * from nombreMateriasPrimasAuxiliares;
 
 
 create table produccionVentas(
-ruc varchar primary key not null,
+ruc varchar ,
 anioRefernc int, 
 ---
 nombreProducto varchar[],

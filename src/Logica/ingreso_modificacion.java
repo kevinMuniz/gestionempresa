@@ -246,6 +246,7 @@ public class ingreso_modificacion {
             }catch(Exception exc){                
             }
     }
+        
     
     public void ingreso_activosfijos(String rucx, int ano,String descripcion,int d1, int d2, int d3,int d4, int d5, int d6,int d7, int d8, int d9,int d10, int d11, int d12)
     {
@@ -261,5 +262,34 @@ public class ingreso_modificacion {
             }catch(Exception exc){                
             }
     }
-      
+    
+    public void ingreso_producionVenta(String rucx, int ano,String nombreProducto ,String NN, String unidadMedida, String cantidad_NN1,String valor_NN1,String cantidad_NN2,String valor_NN2,String NN3)
+    {
+        try{                    
+            Class.forName("org.postgresql.Driver");
+            Connection conex = DriverManager.getConnection(cadena,usuario,contrasenia);
+            java.sql.Statement st = conex.createStatement();
+            String sql = "select InsertarProduccionVentas('"+rucx+"',"+ano+",array["+nombreProducto+"],array["+NN+"],array["+unidadMedida+"],array["+cantidad_NN1+"],array["+valor_NN1+"],array["+cantidad_NN2+"],array["+valor_NN2+"],array["+NN3+"])";
+            ResultSet resultSet = st.executeQuery(sql);                        
+            resultSet.close();                
+            st.close();
+            conex.close();                
+            }catch(Exception exc){                
+            }
+    }
+    
+    public void ingreso_costomercaderia(String rucx, int ano,String nombreMercaderia,String IDE, String unidadMedida, String cantidad_NM1, String valor_NM1, String cantidad_NM2,String valor_NM2)
+    {
+        try{                    
+            Class.forName("org.postgresql.Driver");
+            Connection conex = DriverManager.getConnection(cadena,usuario,contrasenia);
+            java.sql.Statement st = conex.createStatement();
+            String sql = "select InsertarCostoVentasMercaderia('"+rucx+"',"+ano+",array["+nombreMercaderia+"],array["+IDE+"],array["+unidadMedida+"],array["+cantidad_NM1+"],array["+valor_NM1+"],array["+cantidad_NM2+"],array["+valor_NM2+"])";
+            ResultSet resultSet = st.executeQuery(sql);                        
+            resultSet.close();                
+            st.close();
+            conex.close();                
+            }catch(Exception exc){                
+            }
+    }
 }
