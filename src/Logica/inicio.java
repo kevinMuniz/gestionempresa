@@ -10,7 +10,7 @@ public class inicio {
     private  final String cadena = "jdbc:postgresql://localhost:5432/bdempresasmanta";
     private  final String usuario = "postgres";
     private  final String contrasenia = "1234";    
-    private String mensaje;
+    private String mensaje="no";
     
     public String login(String name, String password)
     {

@@ -31,6 +31,7 @@ public class eliminar {
                 sql += "delete from nombreMateriasPrimasAuxiliares where ruc = '"+ruc+"';";
                 sql += "delete from produccionVentas where ruc = '"+ruc+"';";
                 sql += "delete from costoVentasMercaderia where ruc = '"+ruc+"';";                
+                sql += "delete from activosfijos where ruc = '"+ruc+"';";                
                 ResultSet resultSet = st.executeQuery(sql);     
             }catch(Exception exc){                
             }  

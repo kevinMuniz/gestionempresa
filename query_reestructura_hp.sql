@@ -108,9 +108,7 @@ CREATE TABLE personalSueldos(
   totalMujeres int not null,
   totalhombres int not null,
   totalSUeldoMujeres int not null,
-  totalSUeldohombres int not null,  
-  constraint fk_detalle_Empresa foreign key (Ruc_empresa)
-  references IdentificacionUbicacionActividad(ruc)
+  totalSUeldohombres int not null  
 );
 --select InsertarPersonalSueldos('1314853209001',2015,2,0,3,0,2,890,4,920,3,450,6,450,2,320,6,360);
 --select * from personalSUeldos
@@ -298,9 +296,7 @@ CREATE TABLE ventasCosto_Ventas(
 
   utilidadbrutatotal int not null,
   utilidadbrutapais int not null,
-  utilidadbrutaexterior int not null,  
-  constraint fk_ventas_Empresa foreign key (Ruc_empresa)
-  references IdentificacionUbicacionActividad(ruc)
+  utilidadbrutaexterior int not null
 );
 
 --select * from ventasCosto_Ventas;
@@ -540,9 +536,8 @@ language plpgsql volatile
 cost 100;
 
 --select Insertargastosoperacionalesotrosingresos('1314853209001',2015,634,345,634,34,7,34,567,34,87,34,23,234,56,23,23,56,567,8575,687,89,34,789,34,98,234,879,23,7098,23,9,234,45,56234,2344577567,23423,23424,234234,78,34,87,345,68,234,423,56,678,34,687,809,23,798,234,0,243,67,23,78,456,243,687,66783,78,23,678,234,78,234,524,768,234,98,23,89,23,87,23,32,3,31,12,321);
-
 --select * from gastosoperacionalesotrosingresos;
-select Insertargastosoperacionalesotrosingresos ('1',4,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,0,0,0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,0,4,0)
+
 
 CREATE TABLE GASTOSOPERACIONALES2
 (ruc varchar not null,
