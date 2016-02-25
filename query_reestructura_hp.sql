@@ -868,7 +868,7 @@ cost 100;
 
 
 create table activosIntangibles(
-ruc varchar primary key not null,
+ruc varchar ,
 anioRefernc int,
 descripcion varchar,
 anioCompra int, 
@@ -987,8 +987,9 @@ cost 200;
 --select * from costoVentasMercaderia;
 
 create table activosFijos(
-ruc varchar primary key not null,
+ruc varchar,
 anioRefernc int, 
+---
 nombreActivo varchar,
 SD1 int,
 SD2 int,
