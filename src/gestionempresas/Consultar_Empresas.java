@@ -5,14 +5,23 @@
  */
 package gestionempresas;
 
-import javax.swing.JTable;
 import Logica.consulta;
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import javax.swing.JOptionPane;
+import javax.swing.JTable;
 /**
  *
  * @author FAMILIA
  */
 public class Consultar_Empresas extends javax.swing.JFrame {
-
+     
+    @SuppressWarnings("unchecked")
+    
+    
     /**
      * Creates new form Consultar_Empresas
      */
@@ -36,6 +45,7 @@ public class Consultar_Empresas extends javax.swing.JFrame {
         tabla_consulta = new javax.swing.JTable();
         jButton3 = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
+        excel = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
         setTitle("CONSULTAR");
@@ -147,7 +157,16 @@ public class Consultar_Empresas extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton1);
-        jButton1.setBounds(833, 470, 120, 23);
+        jButton1.setBounds(740, 470, 120, 23);
+
+        excel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gestionempresas/excel.jpg"))); // NOI18N
+        excel.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                excelActionPerformed(evt);
+            }
+        });
+        jPanel1.add(excel);
+        excel.setBounds(900, 440, 60, 60);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -192,6 +211,33 @@ public class Consultar_Empresas extends javax.swing.JFrame {
         this.tabla_consulta.setModel(con.buscar_mostrarTabla()); 
     }//GEN-LAST:event_jButton1MouseClicked
 
+    java.util.Date fecha = new Date();
+    String ubic = "gestion_empresa";
+   
+    public void llama_excel()
+	 {
+		 try {
+				Runtime.getRuntime().exec("rundll32 url.dll,FileProtocolHandler C:/Users/Mariaca del espacio/Documents/GESTION EMPRESA/"+ubic+"_"+fecha.getYear()+"_"+fecha.getMonth()+"_"+fecha.getDay()+".xls");
+				} catch (IOException e) {				
+				e.printStackTrace();
+				}
+	 }
+    
+    private void excelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_excelActionPerformed
+        try {      	 
+           List<JTable> tb = new ArrayList<JTable>();
+           tb.add(tabla_consulta);
+           //-------------------
+           Logica.export_excel excelExporter = new Logica.export_excel(tb, new File("C:/Users/Mariaca del espacio/Documents/GESTION EMPRESA/"+ubic+"_"+fecha.getYear()+"_"+fecha.getMonth()+"_"+fecha.getDay()+".xls"));
+           if (excelExporter.export()) {
+               JOptionPane.showMessageDialog(null, "TABLAS EXPORTADAS CON EXITOS!");
+           }
+       } catch (Exception ex) {
+           ex.printStackTrace();
+       }
+         llama_excel();
+    }//GEN-LAST:event_excelActionPerformed
+           
     /**
      * @param args the command line arguments
      */
@@ -225,9 +271,9 @@ public class Consultar_Empresas extends javax.swing.JFrame {
                 new Consultar_Empresas().setVisible(true);
             }
         });
-    }
-
+    }    
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton excel;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton3;
     private javax.swing.JPanel jPanel1;
