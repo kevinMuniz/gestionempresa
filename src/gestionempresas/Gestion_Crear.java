@@ -280,6 +280,181 @@ public class Gestion_Crear extends javax.swing.JFrame {
         jLabel15 = new javax.swing.JLabel();
         ANIO6 = new javax.swing.JSpinner();
         jLabel73 = new javax.swing.JLabel();
+        jLabel177 = new javax.swing.JLabel();
+        jLabel178 = new javax.swing.JLabel();
+        jLabel179 = new javax.swing.JLabel();
+        jLabel180 = new javax.swing.JLabel();
+        jLabel181 = new javax.swing.JLabel();
+        jLabel182 = new javax.swing.JLabel();
+        jLabel183 = new javax.swing.JLabel();
+        jLabel184 = new javax.swing.JLabel();
+        jLabel185 = new javax.swing.JLabel();
+        jLabel186 = new javax.swing.JLabel();
+        jLabel187 = new javax.swing.JLabel();
+        jLabel188 = new javax.swing.JLabel();
+        jLabel189 = new javax.swing.JLabel();
+        jLabel190 = new javax.swing.JLabel();
+        jLabel191 = new javax.swing.JLabel();
+        jLabel192 = new javax.swing.JLabel();
+        jLabel193 = new javax.swing.JLabel();
+        jLabel194 = new javax.swing.JLabel();
+        jLabel195 = new javax.swing.JLabel();
+        jLabel196 = new javax.swing.JLabel();
+        jLabel197 = new javax.swing.JLabel();
+        jLabel198 = new javax.swing.JLabel();
+        jLabel199 = new javax.swing.JLabel();
+        jLabel200 = new javax.swing.JLabel();
+        jScrollPane16 = new javax.swing.JScrollPane();
+        tabla_gastos1 = new javax.swing.JTable();
+        p54 = new javax.swing.JTextField();
+        e54 = new javax.swing.JTextField();
+        p55 = new javax.swing.JTextField();
+        e55 = new javax.swing.JTextField();
+        p56 = new javax.swing.JTextField();
+        e56 = new javax.swing.JTextField();
+        p57 = new javax.swing.JTextField();
+        e57 = new javax.swing.JTextField();
+        p58 = new javax.swing.JTextField();
+        e58 = new javax.swing.JTextField();
+        p59 = new javax.swing.JTextField();
+        e59 = new javax.swing.JTextField();
+        p60 = new javax.swing.JTextField();
+        e60 = new javax.swing.JTextField();
+        p61 = new javax.swing.JTextField();
+        e61 = new javax.swing.JTextField();
+        p62 = new javax.swing.JTextField();
+        e62 = new javax.swing.JTextField();
+        p63 = new javax.swing.JTextField();
+        e63 = new javax.swing.JTextField();
+        p64 = new javax.swing.JTextField();
+        e64 = new javax.swing.JTextField();
+        p65 = new javax.swing.JTextField();
+        e65 = new javax.swing.JTextField();
+        p66 = new javax.swing.JTextField();
+        e66 = new javax.swing.JTextField();
+        p67 = new javax.swing.JTextField();
+        e67 = new javax.swing.JTextField();
+        p68 = new javax.swing.JTextField();
+        e68 = new javax.swing.JTextField();
+        p69 = new javax.swing.JTextField();
+        e69 = new javax.swing.JTextField();
+        p70 = new javax.swing.JTextField();
+        e70 = new javax.swing.JTextField();
+        p71 = new javax.swing.JTextField();
+        e71 = new javax.swing.JTextField();
+        p72 = new javax.swing.JTextField();
+        e72 = new javax.swing.JTextField();
+        p73 = new javax.swing.JTextField();
+        e73 = new javax.swing.JTextField();
+        p74 = new javax.swing.JTextField();
+        e74 = new javax.swing.JTextField();
+        p75 = new javax.swing.JTextField();
+        e75 = new javax.swing.JTextField();
+        p76 = new javax.swing.JTextField();
+        e76 = new javax.swing.JTextField();
+        p77 = new javax.swing.JTextField();
+        e77 = new javax.swing.JTextField();
+        jLabel201 = new javax.swing.JLabel();
+        jLabel202 = new javax.swing.JLabel();
+        jLabel203 = new javax.swing.JLabel();
+        jLabel204 = new javax.swing.JLabel();
+        jLabel205 = new javax.swing.JLabel();
+        jLabel206 = new javax.swing.JLabel();
+        jLabel207 = new javax.swing.JLabel();
+        jLabel208 = new javax.swing.JLabel();
+        jLabel209 = new javax.swing.JLabel();
+        jLabel210 = new javax.swing.JLabel();
+        jLabel211 = new javax.swing.JLabel();
+        jLabel212 = new javax.swing.JLabel();
+        p78 = new javax.swing.JTextField();
+        e78 = new javax.swing.JTextField();
+        jLabel213 = new javax.swing.JLabel();
+        jLabel214 = new javax.swing.JLabel();
+        jLabel215 = new javax.swing.JLabel();
+        jLabel216 = new javax.swing.JLabel();
+        jLabel217 = new javax.swing.JLabel();
+        jLabel218 = new javax.swing.JLabel();
+        jLabel219 = new javax.swing.JLabel();
+        jLabel220 = new javax.swing.JLabel();
+        jLabel221 = new javax.swing.JLabel();
+        jLabel222 = new javax.swing.JLabel();
+        jLabel223 = new javax.swing.JLabel();
+        jLabel224 = new javax.swing.JLabel();
+        jScrollPane17 = new javax.swing.JScrollPane();
+        tabla_gastos2 = new javax.swing.JTable();
+        jLabel225 = new javax.swing.JLabel();
+        jLabel226 = new javax.swing.JLabel();
+        p79 = new javax.swing.JTextField();
+        e79 = new javax.swing.JTextField();
+        p80 = new javax.swing.JTextField();
+        e80 = new javax.swing.JTextField();
+        p81 = new javax.swing.JTextField();
+        e81 = new javax.swing.JTextField();
+        p82 = new javax.swing.JTextField();
+        e82 = new javax.swing.JTextField();
+        p83 = new javax.swing.JTextField();
+        e83 = new javax.swing.JTextField();
+        p84 = new javax.swing.JTextField();
+        e84 = new javax.swing.JTextField();
+        p85 = new javax.swing.JTextField();
+        e85 = new javax.swing.JTextField();
+        p86 = new javax.swing.JTextField();
+        e86 = new javax.swing.JTextField();
+        p87 = new javax.swing.JTextField();
+        e87 = new javax.swing.JTextField();
+        p88 = new javax.swing.JTextField();
+        e88 = new javax.swing.JTextField();
+        p89 = new javax.swing.JTextField();
+        e89 = new javax.swing.JTextField();
+        p90 = new javax.swing.JTextField();
+        e90 = new javax.swing.JTextField();
+        p91 = new javax.swing.JTextField();
+        e91 = new javax.swing.JTextField();
+        p92 = new javax.swing.JTextField();
+        e92 = new javax.swing.JTextField();
+        p93 = new javax.swing.JTextField();
+        e93 = new javax.swing.JTextField();
+        p94 = new javax.swing.JTextField();
+        e94 = new javax.swing.JTextField();
+        p95 = new javax.swing.JTextField();
+        e95 = new javax.swing.JTextField();
+        p96 = new javax.swing.JTextField();
+        e96 = new javax.swing.JTextField();
+        p97 = new javax.swing.JTextField();
+        e97 = new javax.swing.JTextField();
+        p98 = new javax.swing.JTextField();
+        e98 = new javax.swing.JTextField();
+        p99 = new javax.swing.JTextField();
+        e99 = new javax.swing.JTextField();
+        p100 = new javax.swing.JTextField();
+        e100 = new javax.swing.JTextField();
+        p101 = new javax.swing.JTextField();
+        e101 = new javax.swing.JTextField();
+        p102 = new javax.swing.JTextField();
+        e102 = new javax.swing.JTextField();
+        p103 = new javax.swing.JTextField();
+        e103 = new javax.swing.JTextField();
+        jLabel227 = new javax.swing.JLabel();
+        jLabel228 = new javax.swing.JLabel();
+        jLabel229 = new javax.swing.JLabel();
+        jLabel230 = new javax.swing.JLabel();
+        jLabel231 = new javax.swing.JLabel();
+        jLabel232 = new javax.swing.JLabel();
+        jLabel233 = new javax.swing.JLabel();
+        p104 = new javax.swing.JTextField();
+        e104 = new javax.swing.JTextField();
+        p105 = new javax.swing.JTextField();
+        e105 = new javax.swing.JTextField();
+        p106 = new javax.swing.JTextField();
+        e106 = new javax.swing.JTextField();
+        p107 = new javax.swing.JTextField();
+        e107 = new javax.swing.JTextField();
+        p108 = new javax.swing.JTextField();
+        e108 = new javax.swing.JTextField();
+        p109 = new javax.swing.JTextField();
+        e109 = new javax.swing.JTextField();
+        p110 = new javax.swing.JTextField();
+        e110 = new javax.swing.JTextField();
         tabcombustibles = new javax.swing.JPanel();
         tabcombustible = new javax.swing.JPanel();
         jLabel18 = new javax.swing.JLabel();
@@ -2161,70 +2336,14 @@ public class Gestion_Crear extends javax.swing.JFrame {
 
         tabla_gastos.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {"Gastos operacionales", null, null},
-                {"Suelods y salarios bàsicos", null, null},
-                {"Otras remuneraciones (transporte, comisiones, indemnizaciones, vivienda, etc)", null, null},
-                {"Sobresueldos", null, null},
-                {"Jubilaciòn patronal y sus provisiones", null, null},
-                {"Subsidio familiar", null, null},
-                {"Aporte patronal al IESS (11.15%)", null, null},
-                {"Fondos de Reserva", null, null},
-                {"Contribuciones al IECE (0.5%) y SECAP (%)", null, null},
-                {"Comisiones pagadas", null, null},
-                {"Asistencia tècnica", null, null},
-                {"Servicios bancarios", null, null},
-                {"Otros gastos financieros", null, null},
-                {"Impuesto predial", null, null},
-                {"Otros impuestos", null, null},
-                {"Gastos de representaciòn", null, null},
-                {"Honorarios profesionales", null, null},
-                {"Gastos de viajes, viàticos y movilizaciones", null, null},
-                {"Trabajos de reparaciòn y mantenimiento", null, null},
-                {"Repuestos y accesorios", null, null},
-                {"Envases y embalajes", null, null},
-                {"Fletes y gastos de transporte", null, null},
-                {"Energìa elèctrica", null, null},
-                {"Combustibles y lubricantes", null, null},
-                {"Alquileres", null, null},
-                {"Arrendamiento mercantil (LEASING)", null, null},
-                {"Publicidad", null, null},
-                {"Primas de seguro", null, null},
-                {"Pagos de regalias", null, null},
-                {"Vigilancia y seguridad", null, null},
-                {"Limpieza", null, null},
-                {"Almacenamiento", null, null},
-                {"Comunicaciones", null, null},
-                {"Internet", null, null},
-                {"Agua", null, null},
-                {"Intereses", null, null},
-                {"Materiales de oficina", null, null},
-                {"Depreciaciòn de los bienes del dpto. administrativo y ventas", null, null},
-                {"Baja de inventarios", null, null},
-                {"Pèrdida por diferencia de cambio", null, null},
-                {"Otros gastos operacionales", null, null},
-                {"Otros ingresos", null, null},
-                {"Trabajos de fabricaciòn (hecho por tercero)", null, null},
-                {"Trabajos de reparaciòn y mantenimiento", null, null},
-                {"Asesoria", null, null},
-                {"Servicios de transporte", null, null},
-                {"Alquileres de bienes muebeles", null, null},
-                {"Alquileres de bienes inmuebles", null, null},
-                {"Comisiones o margen de utilidad", null, null},
-                {"Venta de enrgìa elèctrica", null, null},
-                {"Utilidad en venta de activos fijos", null, null},
-                {"Subsidios", null, null},
-                {"Intereses Recibidos", null, null},
-                {"Dividendos por propiedad de acciones en otras empresas", null, null},
-                {"Utilidad perdida del ejercicio", null, null},
-                {"15 % para trabajadores", null, null},
-                {"Dividendos pagados a los accionistas", null, null}
+
             },
             new String [] {
                 "Descripciòn", "En el pais", "En el exterior"
             }
         ) {
             Class[] types = new Class [] {
-                java.lang.String.class, java.lang.Integer.class, java.lang.Integer.class
+                java.lang.String.class, java.lang.String.class, java.lang.String.class
             };
             boolean[] canEdit = new boolean [] {
                 false, true, true
@@ -2243,19 +2362,19 @@ public class Gestion_Crear extends javax.swing.JFrame {
         tabla_gastos.setPreferredSize(new java.awt.Dimension(830, 940));
         jScrollPane3.setViewportView(tabla_gastos);
         if (tabla_gastos.getColumnModel().getColumnCount() > 0) {
-            tabla_gastos.getColumnModel().getColumn(0).setMinWidth(550);
-            tabla_gastos.getColumnModel().getColumn(0).setPreferredWidth(550);
-            tabla_gastos.getColumnModel().getColumn(0).setMaxWidth(550);
-            tabla_gastos.getColumnModel().getColumn(1).setMinWidth(100);
-            tabla_gastos.getColumnModel().getColumn(1).setPreferredWidth(100);
-            tabla_gastos.getColumnModel().getColumn(1).setMaxWidth(100);
-            tabla_gastos.getColumnModel().getColumn(2).setMinWidth(100);
-            tabla_gastos.getColumnModel().getColumn(2).setPreferredWidth(100);
-            tabla_gastos.getColumnModel().getColumn(2).setMaxWidth(100);
+            tabla_gastos.getColumnModel().getColumn(0).setMinWidth(250);
+            tabla_gastos.getColumnModel().getColumn(0).setPreferredWidth(250);
+            tabla_gastos.getColumnModel().getColumn(0).setMaxWidth(250);
+            tabla_gastos.getColumnModel().getColumn(1).setMinWidth(80);
+            tabla_gastos.getColumnModel().getColumn(1).setPreferredWidth(80);
+            tabla_gastos.getColumnModel().getColumn(1).setMaxWidth(80);
+            tabla_gastos.getColumnModel().getColumn(2).setMinWidth(80);
+            tabla_gastos.getColumnModel().getColumn(2).setPreferredWidth(80);
+            tabla_gastos.getColumnModel().getColumn(2).setMaxWidth(80);
         }
 
         jPanel9.add(jScrollPane3);
-        jScrollPane3.setBounds(250, 130, 770, 490);
+        jScrollPane3.setBounds(20, 100, 420, 30);
 
         CREARBOTONGUARDAR4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gestionempresas/IconoGuardar.jpg"))); // NOI18N
         CREARBOTONGUARDAR4.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -2264,13 +2383,13 @@ public class Gestion_Crear extends javax.swing.JFrame {
             }
         });
         jPanel9.add(CREARBOTONGUARDAR4);
-        CREARBOTONGUARDAR4.setBounds(1050, 130, 100, 90);
+        CREARBOTONGUARDAR4.setBounds(740, 550, 100, 80);
 
         jLabel15.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
         jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel15.setText("GASTOS OPERACIONALES Y OTROS INGRESOS");
         jPanel9.add(jLabel15);
-        jLabel15.setBounds(180, 90, 830, 28);
+        jLabel15.setBounds(350, 70, 830, 28);
         jPanel9.add(ANIO6);
         ANIO6.setBounds(1020, 40, 70, 20);
 
@@ -2278,8 +2397,1225 @@ public class Gestion_Crear extends javax.swing.JFrame {
         jPanel9.add(jLabel73);
         jLabel73.setBounds(930, 40, 90, 14);
 
+        jLabel177.setText("dividendos pagados a los accionistas");
+        jPanel9.add(jLabel177);
+        jLabel177.setBounds(910, 470, 250, 14);
+
+        jLabel178.setText("Gatos operacionales ");
+        jPanel9.add(jLabel178);
+        jLabel178.setBounds(30, 130, 220, 14);
+
+        jLabel179.setText("Sueldos y salarios básicos");
+        jPanel9.add(jLabel179);
+        jLabel179.setBounds(30, 150, 230, 14);
+
+        jLabel180.setText("Otras remuneraciones (transporte, comisiones, indemnizaciones, vivienda,etc)");
+        jPanel9.add(jLabel180);
+        jLabel180.setBounds(30, 170, 220, 14);
+
+        jLabel181.setText("Sobresueldos");
+        jPanel9.add(jLabel181);
+        jLabel181.setBounds(30, 190, 230, 14);
+
+        jLabel182.setText("Jubilación patronal y sus provisiones");
+        jPanel9.add(jLabel182);
+        jLabel182.setBounds(30, 210, 210, 14);
+
+        jLabel183.setText("Subsidio familiar");
+        jPanel9.add(jLabel183);
+        jLabel183.setBounds(30, 230, 180, 14);
+
+        jLabel184.setText("Aporta patronal al IESS (11.15%)");
+        jPanel9.add(jLabel184);
+        jLabel184.setBounds(30, 250, 190, 14);
+
+        jLabel185.setText("Fondos de reserva");
+        jPanel9.add(jLabel185);
+        jLabel185.setBounds(30, 270, 180, 14);
+
+        jLabel186.setText("Contribuciones al IECE (0.5%) y SECAP (0.05%)");
+        jPanel9.add(jLabel186);
+        jLabel186.setBounds(30, 290, 220, 14);
+
+        jLabel187.setText("Comisiones pagadas");
+        jPanel9.add(jLabel187);
+        jLabel187.setBounds(30, 310, 190, 14);
+
+        jLabel188.setText("Asistencias técnicas");
+        jPanel9.add(jLabel188);
+        jLabel188.setBounds(30, 330, 120, 14);
+
+        jLabel189.setText("Servicios bancarios");
+        jPanel9.add(jLabel189);
+        jLabel189.setBounds(30, 350, 150, 14);
+
+        jLabel190.setText("Otros gastos financieros");
+        jPanel9.add(jLabel190);
+        jLabel190.setBounds(30, 370, 140, 14);
+
+        jLabel191.setText("Impuesto predial");
+        jPanel9.add(jLabel191);
+        jLabel191.setBounds(30, 390, 140, 14);
+
+        jLabel192.setText("Otros Impuestos");
+        jPanel9.add(jLabel192);
+        jLabel192.setBounds(30, 410, 170, 14);
+
+        jLabel193.setText("Gastos de representacion");
+        jPanel9.add(jLabel193);
+        jLabel193.setBounds(30, 430, 170, 14);
+
+        jLabel194.setText("Honorarios profesionales");
+        jPanel9.add(jLabel194);
+        jLabel194.setBounds(30, 450, 180, 14);
+
+        jLabel195.setText("Gastosde viajes, viaticos y movilizaciones");
+        jPanel9.add(jLabel195);
+        jLabel195.setBounds(30, 470, 210, 14);
+
+        jLabel196.setText("Trabajos de reparacion y mantenimiento");
+        jPanel9.add(jLabel196);
+        jLabel196.setBounds(30, 490, 200, 14);
+
+        jLabel197.setText("Repuestos y accesorios");
+        jPanel9.add(jLabel197);
+        jLabel197.setBounds(30, 510, 160, 14);
+
+        jLabel198.setText("Envases y embalajes");
+        jPanel9.add(jLabel198);
+        jLabel198.setBounds(30, 530, 160, 14);
+
+        jLabel199.setText("Fletes y gastos de transporte");
+        jPanel9.add(jLabel199);
+        jLabel199.setBounds(460, 130, 160, 14);
+
+        jLabel200.setText("Energia electrica");
+        jPanel9.add(jLabel200);
+        jLabel200.setBounds(460, 150, 140, 14);
+
+        tabla_gastos1.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Descripciòn", "En el pais", "En el exterior"
+            }
+        ) {
+            Class[] types = new Class [] {
+                java.lang.String.class, java.lang.String.class, java.lang.String.class
+            };
+
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
+        });
+        tabla_gastos1.setMaximumSize(new java.awt.Dimension(830, 940));
+        tabla_gastos1.setMinimumSize(new java.awt.Dimension(830, 940));
+        tabla_gastos1.setPreferredSize(new java.awt.Dimension(830, 940));
+        jScrollPane16.setViewportView(tabla_gastos1);
+        if (tabla_gastos1.getColumnModel().getColumnCount() > 0) {
+            tabla_gastos1.getColumnModel().getColumn(0).setMinWidth(250);
+            tabla_gastos1.getColumnModel().getColumn(0).setPreferredWidth(250);
+            tabla_gastos1.getColumnModel().getColumn(0).setMaxWidth(250);
+            tabla_gastos1.getColumnModel().getColumn(1).setMinWidth(80);
+            tabla_gastos1.getColumnModel().getColumn(1).setPreferredWidth(80);
+            tabla_gastos1.getColumnModel().getColumn(1).setMaxWidth(80);
+            tabla_gastos1.getColumnModel().getColumn(2).setMinWidth(80);
+            tabla_gastos1.getColumnModel().getColumn(2).setPreferredWidth(80);
+            tabla_gastos1.getColumnModel().getColumn(2).setMaxWidth(80);
+        }
+
+        jPanel9.add(jScrollPane16);
+        jScrollPane16.setBounds(910, 100, 430, 30);
+
+        p54.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p54KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p54);
+        p54.setBounds(270, 130, 80, 20);
+
+        e54.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e54KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e54);
+        e54.setBounds(350, 130, 80, 20);
+
+        p55.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p55KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p55);
+        p55.setBounds(270, 150, 80, 20);
+
+        e55.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e55KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e55);
+        e55.setBounds(350, 150, 80, 20);
+
+        p56.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p56KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p56);
+        p56.setBounds(270, 170, 80, 20);
+
+        e56.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e56KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e56);
+        e56.setBounds(350, 170, 80, 20);
+
+        p57.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p57KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p57);
+        p57.setBounds(270, 190, 80, 20);
+
+        e57.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e57KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e57);
+        e57.setBounds(350, 190, 80, 20);
+
+        p58.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p58KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p58);
+        p58.setBounds(270, 210, 80, 20);
+
+        e58.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e58KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e58);
+        e58.setBounds(350, 210, 80, 20);
+
+        p59.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p59KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p59);
+        p59.setBounds(270, 230, 80, 20);
+
+        e59.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e59KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e59);
+        e59.setBounds(350, 230, 80, 20);
+
+        p60.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p60KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p60);
+        p60.setBounds(270, 250, 80, 20);
+
+        e60.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e60KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e60);
+        e60.setBounds(350, 250, 80, 20);
+
+        p61.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p61KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p61);
+        p61.setBounds(270, 270, 80, 20);
+
+        e61.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e61KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e61);
+        e61.setBounds(350, 270, 80, 20);
+
+        p62.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p62KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p62);
+        p62.setBounds(270, 290, 80, 20);
+
+        e62.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e62KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e62);
+        e62.setBounds(350, 290, 80, 20);
+
+        p63.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p63KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p63);
+        p63.setBounds(270, 310, 80, 20);
+
+        e63.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e63KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e63);
+        e63.setBounds(350, 310, 80, 20);
+
+        p64.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p64KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p64);
+        p64.setBounds(270, 330, 80, 20);
+
+        e64.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e64KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e64);
+        e64.setBounds(350, 330, 80, 20);
+
+        p65.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p65KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p65);
+        p65.setBounds(270, 350, 80, 20);
+
+        e65.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e65KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e65);
+        e65.setBounds(350, 350, 80, 20);
+
+        p66.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p66KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p66);
+        p66.setBounds(270, 370, 80, 20);
+
+        e66.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e66KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e66);
+        e66.setBounds(350, 370, 80, 20);
+
+        p67.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p67KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p67);
+        p67.setBounds(270, 390, 80, 20);
+
+        e67.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e67KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e67);
+        e67.setBounds(350, 390, 80, 20);
+
+        p68.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p68KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p68);
+        p68.setBounds(270, 410, 80, 20);
+
+        e68.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e68KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e68);
+        e68.setBounds(350, 410, 80, 20);
+
+        p69.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p69KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p69);
+        p69.setBounds(270, 430, 80, 20);
+
+        e69.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e69KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e69);
+        e69.setBounds(350, 430, 80, 20);
+
+        p70.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p70KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p70);
+        p70.setBounds(270, 450, 80, 20);
+
+        e70.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e70KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e70);
+        e70.setBounds(350, 450, 80, 20);
+
+        p71.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p71KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p71);
+        p71.setBounds(270, 470, 80, 20);
+
+        e71.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e71KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e71);
+        e71.setBounds(350, 470, 80, 20);
+
+        p72.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p72KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p72);
+        p72.setBounds(270, 490, 80, 20);
+
+        e72.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e72KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e72);
+        e72.setBounds(350, 490, 80, 20);
+
+        p73.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p73KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p73);
+        p73.setBounds(270, 510, 80, 20);
+
+        e73.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e73KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e73);
+        e73.setBounds(350, 510, 80, 20);
+
+        p74.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p74KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p74);
+        p74.setBounds(270, 530, 80, 20);
+
+        e74.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e74KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e74);
+        e74.setBounds(350, 530, 80, 20);
+
+        p75.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p75KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p75);
+        p75.setBounds(710, 130, 80, 20);
+
+        e75.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e75KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e75);
+        e75.setBounds(790, 130, 80, 20);
+
+        p76.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p76KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p76);
+        p76.setBounds(710, 150, 80, 20);
+
+        e76.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e76KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e76);
+        e76.setBounds(790, 150, 80, 20);
+
+        p77.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p77KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p77);
+        p77.setBounds(710, 170, 80, 20);
+
+        e77.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e77KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e77);
+        e77.setBounds(790, 170, 80, 20);
+
+        jLabel201.setText("Combustibles y lubricantes");
+        jPanel9.add(jLabel201);
+        jLabel201.setBounds(460, 170, 160, 14);
+
+        jLabel202.setText("Alquileres");
+        jPanel9.add(jLabel202);
+        jLabel202.setBounds(460, 190, 180, 14);
+
+        jLabel203.setText("Arrendamiento mercantil (LEASING)");
+        jPanel9.add(jLabel203);
+        jLabel203.setBounds(460, 210, 250, 14);
+
+        jLabel204.setText("Publicidad");
+        jPanel9.add(jLabel204);
+        jLabel204.setBounds(460, 230, 250, 14);
+
+        jLabel205.setText("Primas de seguro");
+        jPanel9.add(jLabel205);
+        jLabel205.setBounds(460, 250, 250, 14);
+
+        jLabel206.setText("Pagos de regalias");
+        jPanel9.add(jLabel206);
+        jLabel206.setBounds(460, 270, 250, 14);
+
+        jLabel207.setText("Vigilancia y seguridad");
+        jPanel9.add(jLabel207);
+        jLabel207.setBounds(460, 290, 250, 14);
+
+        jLabel208.setText("Limpieza");
+        jPanel9.add(jLabel208);
+        jLabel208.setBounds(460, 310, 250, 14);
+
+        jLabel209.setText("Almacenamiento");
+        jPanel9.add(jLabel209);
+        jLabel209.setBounds(460, 330, 250, 14);
+
+        jLabel210.setText("Comunicaciones");
+        jPanel9.add(jLabel210);
+        jLabel210.setBounds(460, 350, 250, 14);
+
+        jLabel211.setText("Internet");
+        jPanel9.add(jLabel211);
+        jLabel211.setBounds(460, 370, 250, 14);
+
+        jLabel212.setText("Agua");
+        jPanel9.add(jLabel212);
+        jLabel212.setBounds(460, 390, 250, 14);
+
+        p78.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p78KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p78);
+        p78.setBounds(710, 190, 80, 20);
+
+        e78.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e78KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e78);
+        e78.setBounds(790, 190, 80, 20);
+
+        jLabel213.setText("Intereses");
+        jPanel9.add(jLabel213);
+        jLabel213.setBounds(460, 410, 250, 14);
+
+        jLabel214.setText("Materiales de oficina");
+        jPanel9.add(jLabel214);
+        jLabel214.setBounds(460, 430, 250, 14);
+
+        jLabel215.setText("Depreciacion de los bienes del Departamento. Administrativo y Ventas");
+        jPanel9.add(jLabel215);
+        jLabel215.setBounds(460, 450, 250, 14);
+
+        jLabel216.setText("Baja de inventarios");
+        jPanel9.add(jLabel216);
+        jLabel216.setBounds(460, 470, 250, 14);
+
+        jLabel217.setText("Perdida por diferencias de cambio");
+        jPanel9.add(jLabel217);
+        jLabel217.setBounds(910, 130, 250, 14);
+
+        jLabel218.setText("Otros gastos operacionales");
+        jPanel9.add(jLabel218);
+        jLabel218.setBounds(910, 150, 250, 14);
+
+        jLabel219.setText("Otros ingresos");
+        jPanel9.add(jLabel219);
+        jLabel219.setBounds(910, 170, 250, 14);
+
+        jLabel220.setText("Trabajos de fabricacion (hecho por terceros)");
+        jPanel9.add(jLabel220);
+        jLabel220.setBounds(910, 190, 250, 14);
+
+        jLabel221.setText("Trabajos de reparacion y mantenimiento");
+        jPanel9.add(jLabel221);
+        jLabel221.setBounds(910, 210, 250, 14);
+
+        jLabel222.setText("Asesoria");
+        jPanel9.add(jLabel222);
+        jLabel222.setBounds(910, 230, 250, 14);
+
+        jLabel223.setText("Servicios de trasnporte");
+        jPanel9.add(jLabel223);
+        jLabel223.setBounds(910, 250, 250, 14);
+
+        jLabel224.setText("Alquileres de bienes muebles");
+        jPanel9.add(jLabel224);
+        jLabel224.setBounds(910, 270, 250, 14);
+
+        tabla_gastos2.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Descripciòn", "En el pais", "En el exterior"
+            }
+        ) {
+            Class[] types = new Class [] {
+                java.lang.String.class, java.lang.String.class, java.lang.String.class
+            };
+            boolean[] canEdit = new boolean [] {
+                false, true, true
+            };
+
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        tabla_gastos2.setMaximumSize(new java.awt.Dimension(830, 940));
+        tabla_gastos2.setMinimumSize(new java.awt.Dimension(830, 940));
+        tabla_gastos2.setPreferredSize(new java.awt.Dimension(830, 940));
+        jScrollPane17.setViewportView(tabla_gastos2);
+        if (tabla_gastos2.getColumnModel().getColumnCount() > 0) {
+            tabla_gastos2.getColumnModel().getColumn(0).setMinWidth(250);
+            tabla_gastos2.getColumnModel().getColumn(0).setPreferredWidth(250);
+            tabla_gastos2.getColumnModel().getColumn(0).setMaxWidth(250);
+            tabla_gastos2.getColumnModel().getColumn(1).setMinWidth(80);
+            tabla_gastos2.getColumnModel().getColumn(1).setPreferredWidth(80);
+            tabla_gastos2.getColumnModel().getColumn(1).setMaxWidth(80);
+            tabla_gastos2.getColumnModel().getColumn(2).setMinWidth(80);
+            tabla_gastos2.getColumnModel().getColumn(2).setPreferredWidth(80);
+            tabla_gastos2.getColumnModel().getColumn(2).setMaxWidth(80);
+        }
+
+        jPanel9.add(jScrollPane17);
+        jScrollPane17.setBounds(460, 100, 430, 30);
+
+        jLabel225.setText("Alquileres de bienes inmuebles");
+        jPanel9.add(jLabel225);
+        jLabel225.setBounds(910, 290, 250, 14);
+
+        jLabel226.setText("Comisiones o margen de utilidad");
+        jPanel9.add(jLabel226);
+        jLabel226.setBounds(910, 310, 250, 14);
+
+        p79.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p79KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p79);
+        p79.setBounds(710, 210, 80, 20);
+
+        e79.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e79KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e79);
+        e79.setBounds(790, 210, 80, 20);
+
+        p80.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p80KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p80);
+        p80.setBounds(710, 230, 80, 20);
+
+        e80.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e80KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e80);
+        e80.setBounds(790, 230, 80, 20);
+
+        p81.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p81KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p81);
+        p81.setBounds(710, 250, 80, 20);
+
+        e81.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e81KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e81);
+        e81.setBounds(790, 250, 80, 20);
+
+        p82.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p82KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p82);
+        p82.setBounds(710, 270, 80, 20);
+
+        e82.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e82KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e82);
+        e82.setBounds(790, 270, 80, 20);
+
+        p83.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p83KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p83);
+        p83.setBounds(710, 290, 80, 20);
+
+        e83.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e83KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e83);
+        e83.setBounds(790, 290, 80, 20);
+
+        p84.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p84KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p84);
+        p84.setBounds(710, 310, 80, 20);
+
+        e84.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e84KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e84);
+        e84.setBounds(790, 310, 80, 20);
+
+        p85.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p85KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p85);
+        p85.setBounds(710, 330, 80, 20);
+
+        e85.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e85KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e85);
+        e85.setBounds(790, 330, 80, 20);
+
+        p86.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p86KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p86);
+        p86.setBounds(710, 350, 80, 20);
+
+        e86.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e86KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e86);
+        e86.setBounds(790, 350, 80, 20);
+
+        p87.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p87KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p87);
+        p87.setBounds(710, 370, 80, 20);
+
+        e87.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e87KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e87);
+        e87.setBounds(790, 370, 80, 20);
+
+        p88.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p88KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p88);
+        p88.setBounds(710, 390, 80, 20);
+
+        e88.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e88KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e88);
+        e88.setBounds(790, 390, 80, 20);
+
+        p89.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p89KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p89);
+        p89.setBounds(710, 410, 80, 20);
+
+        e89.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e89KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e89);
+        e89.setBounds(790, 410, 80, 20);
+
+        p90.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p90KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p90);
+        p90.setBounds(710, 430, 80, 20);
+
+        e90.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e90KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e90);
+        e90.setBounds(790, 430, 80, 20);
+
+        p91.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p91KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p91);
+        p91.setBounds(710, 450, 80, 20);
+
+        e91.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e91KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e91);
+        e91.setBounds(790, 450, 80, 20);
+
+        p92.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p92KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p92);
+        p92.setBounds(710, 470, 80, 20);
+
+        e92.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e92KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e92);
+        e92.setBounds(790, 470, 80, 20);
+
+        p93.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p93KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p93);
+        p93.setBounds(1160, 130, 80, 20);
+
+        e93.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e93KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e93);
+        e93.setBounds(1240, 130, 80, 20);
+
+        p94.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p94KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p94);
+        p94.setBounds(1160, 150, 80, 20);
+
+        e94.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e94KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e94);
+        e94.setBounds(1240, 150, 80, 20);
+
+        p95.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p95KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p95);
+        p95.setBounds(1160, 170, 80, 20);
+
+        e95.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e95KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e95);
+        e95.setBounds(1240, 170, 80, 20);
+
+        p96.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p96KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p96);
+        p96.setBounds(1160, 190, 80, 20);
+
+        e96.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e96KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e96);
+        e96.setBounds(1240, 190, 80, 20);
+
+        p97.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p97KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p97);
+        p97.setBounds(1160, 210, 80, 20);
+
+        e97.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e97KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e97);
+        e97.setBounds(1240, 210, 80, 20);
+
+        p98.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p98KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p98);
+        p98.setBounds(1160, 230, 80, 20);
+
+        e98.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e98KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e98);
+        e98.setBounds(1240, 230, 80, 20);
+
+        p99.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p99KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p99);
+        p99.setBounds(1160, 250, 80, 20);
+
+        e99.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e99KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e99);
+        e99.setBounds(1240, 250, 80, 20);
+
+        p100.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p100KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p100);
+        p100.setBounds(1160, 270, 80, 20);
+
+        e100.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e100KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e100);
+        e100.setBounds(1240, 270, 80, 20);
+
+        p101.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p101KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p101);
+        p101.setBounds(1160, 290, 80, 20);
+
+        e101.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e101KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e101);
+        e101.setBounds(1240, 290, 80, 20);
+
+        p102.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p102KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p102);
+        p102.setBounds(1160, 310, 80, 20);
+
+        e102.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e102KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e102);
+        e102.setBounds(1240, 310, 80, 20);
+
+        p103.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p103KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p103);
+        p103.setBounds(1160, 330, 80, 20);
+
+        e103.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e103KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e103);
+        e103.setBounds(1240, 330, 80, 20);
+
+        jLabel227.setText("Venta de energia electrica");
+        jPanel9.add(jLabel227);
+        jLabel227.setBounds(910, 330, 250, 14);
+
+        jLabel228.setText("Utilidad de venta de activos fijos");
+        jPanel9.add(jLabel228);
+        jLabel228.setBounds(910, 350, 250, 14);
+
+        jLabel229.setText("Subsidios");
+        jPanel9.add(jLabel229);
+        jLabel229.setBounds(910, 370, 250, 14);
+
+        jLabel230.setText("Intereses Recibidos");
+        jPanel9.add(jLabel230);
+        jLabel230.setBounds(910, 390, 250, 14);
+
+        jLabel231.setText("Dividendos por propiedad de acciones en otras empresas");
+        jPanel9.add(jLabel231);
+        jLabel231.setBounds(910, 410, 250, 14);
+
+        jLabel232.setText("Utilidad perdidad del ejercicio");
+        jPanel9.add(jLabel232);
+        jLabel232.setBounds(910, 430, 250, 14);
+
+        jLabel233.setText("15% para trabajadores");
+        jPanel9.add(jLabel233);
+        jLabel233.setBounds(910, 450, 250, 14);
+
+        p104.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p104KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p104);
+        p104.setBounds(1160, 350, 80, 20);
+
+        e104.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e104KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e104);
+        e104.setBounds(1240, 350, 80, 20);
+
+        p105.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p105KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p105);
+        p105.setBounds(1160, 370, 80, 20);
+
+        e105.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e105KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e105);
+        e105.setBounds(1240, 370, 80, 20);
+
+        p106.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p106KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p106);
+        p106.setBounds(1160, 390, 80, 20);
+
+        e106.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e106KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e106);
+        e106.setBounds(1240, 390, 80, 20);
+
+        p107.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p107KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p107);
+        p107.setBounds(1160, 410, 80, 20);
+
+        e107.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e107KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e107);
+        e107.setBounds(1240, 410, 80, 20);
+
+        p108.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p108KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p108);
+        p108.setBounds(1160, 430, 80, 20);
+
+        e108.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e108KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e108);
+        e108.setBounds(1240, 430, 80, 20);
+
+        p109.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p109KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p109);
+        p109.setBounds(1160, 450, 80, 20);
+
+        e109.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e109KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e109);
+        e109.setBounds(1240, 450, 80, 20);
+
+        p110.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                p110KeyTyped(evt);
+            }
+        });
+        jPanel9.add(p110);
+        p110.setBounds(1160, 470, 80, 20);
+
+        e110.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                e110KeyTyped(evt);
+            }
+        });
+        jPanel9.add(e110);
+        e110.setBounds(1240, 470, 80, 20);
+
         tabgastos.add(jPanel9);
-        jPanel9.setBounds(0, 0, 1470, 640);
+        jPanel9.setBounds(0, -10, 1470, 660);
 
         tab.addTab("GASTOS OPERACIONALES Y OTROS INGRESOS", tabgastos);
 
@@ -3084,16 +4420,46 @@ public class Gestion_Crear extends javax.swing.JFrame {
         });
         jPanel11.add(nombre);
         nombre.setBounds(350, 50, 560, 20);
+
+        nd0.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                nd0KeyTyped(evt);
+            }
+        });
         jPanel11.add(nd0);
         nd0.setBounds(90, 100, 80, 20);
         jPanel11.add(unidad);
         unidad.setBounds(320, 100, 110, 20);
+
+        nd1valor.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                nd1valorKeyTyped(evt);
+            }
+        });
         jPanel11.add(nd1valor);
         nd1valor.setBounds(320, 150, 100, 20);
+
+        nd2valor.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                nd2valorKeyTyped(evt);
+            }
+        });
         jPanel11.add(nd2valor);
         nd2valor.setBounds(750, 150, 90, 20);
+
+        nd3valor.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                nd3valorKeyTyped(evt);
+            }
+        });
         jPanel11.add(nd3valor);
         nd3valor.setBounds(320, 190, 100, 20);
+
+        nd4.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                nd4KeyTyped(evt);
+            }
+        });
         jPanel11.add(nd4);
         nd4.setBounds(520, 190, 130, 20);
         jPanel11.add(nd2cantidad);
@@ -3107,6 +4473,11 @@ public class Gestion_Crear extends javax.swing.JFrame {
         agregar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 agregarMouseClicked(evt);
+            }
+        });
+        agregar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                agregarActionPerformed(evt);
             }
         });
         jPanel11.add(agregar);
@@ -5219,14 +6590,20 @@ public class Gestion_Crear extends javax.swing.JFrame {
         tab.setEnabledAt(tab.indexOfComponent(tabcombustibles),false);
         tab.setEnabledAt(tab.indexOfComponent(TabPersonal),false);
         tab.setEnabledAt(tab.indexOfComponent(TabProductividad),true);*/
+        if (Integer.parseInt(ANIO2.getValue().toString()) > 0)
+        {
+            contador = 1;
+            im.ingreso_nombreMateriasPrimasAuxiliares(ruc.getText(), Integer.parseInt(ANIO2.getValue().toString()), descripcion_a, nd0_a, UM, nd1_a_c, nd1_a_v, nd2_a_c, nd2_a_v, nd3_a_c, nd3_a_v, nd4_a);
+            JOptionPane.showMessageDialog(null,"Los datos de Materias primas de la Empresa "+razonsocial.getText()+" en el año "+ANIO2.getValue().toString()+" han sido creada correctamente");                        
+        }
     }//GEN-LAST:event_CREARBOTONGUARDAR5MouseClicked
 
     private void CREARBOTONGUARDAR4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_CREARBOTONGUARDAR4MouseClicked
         if(Integer.parseInt(ANIO6.getValue().toString()) > 0)
-        {
-            im.ingreso_gastosOperacionales(ruc.getText(), Integer.parseInt(ANIO6.getValue().toString()), Integer.parseInt(tabla_gastos.getValueAt(0, 1).toString()), Integer.parseInt(tabla_gastos.getValueAt(0, 2).toString()), Integer.parseInt(tabla_gastos.getValueAt(1, 1).toString()), Integer.parseInt(tabla_gastos.getValueAt(1, 2).toString()), Integer.parseInt(tabla_gastos.getValueAt(2, 1).toString()), Integer.parseInt(tabla_gastos.getValueAt(2,2).toString()), Integer.parseInt(tabla_gastos.getValueAt(3,1).toString()), Integer.parseInt(tabla_gastos.getValueAt(3, 2).toString()), Integer.parseInt(tabla_gastos.getValueAt(4, 1).toString()), Integer.parseInt(tabla_gastos.getValueAt(4, 2).toString()), Integer.parseInt(tabla_gastos.getValueAt(5, 1).toString()), Integer.parseInt(tabla_gastos.getValueAt(5, 2).toString()), Integer.parseInt(tabla_gastos.getValueAt(6, 1).toString()), Integer.parseInt(tabla_gastos.getValueAt(6, 2).toString()),  Integer.parseInt(tabla_gastos.getValueAt(7, 1).toString()), Integer.parseInt(tabla_gastos.getValueAt(7, 2).toString()), Integer.parseInt(tabla_gastos.getValueAt(8, 1).toString()),Integer.parseInt(tabla_gastos.getValueAt(8, 2).toString()), Integer.parseInt(tabla_gastos.getValueAt(9, 1).toString()), Integer.parseInt(tabla_gastos.getValueAt(9, 2).toString()), Integer.parseInt(tabla_gastos.getValueAt(10, 1).toString()), Integer.parseInt(tabla_gastos.getValueAt(10, 2).toString()), Integer.parseInt(tabla_gastos.getValueAt(11, 1).toString()), Integer.parseInt(tabla_gastos.getValueAt(11, 2).toString()), Integer.parseInt(tabla_gastos.getValueAt(12, 1).toString()), Integer.parseInt(tabla_gastos.getValueAt(12, 2).toString()), Integer.parseInt(tabla_gastos.getValueAt(13, 1).toString()), Integer.parseInt(tabla_gastos.getValueAt(13, 2).toString()), Integer.parseInt(tabla_gastos.getValueAt(14, 1).toString()), Integer.parseInt(tabla_gastos.getValueAt(14, 2).toString()), Integer.parseInt(tabla_gastos.getValueAt(15, 1).toString()), Integer.parseInt(tabla_gastos.getValueAt(15, 2).toString()), Integer.parseInt(tabla_gastos.getValueAt(16, 1).toString()), Integer.parseInt(tabla_gastos.getValueAt(16, 2).toString()), Integer.parseInt(tabla_gastos.getValueAt(17, 1).toString()), Integer.parseInt(tabla_gastos.getValueAt(17, 2).toString()), Integer.parseInt(tabla_gastos.getValueAt(18, 1).toString()), Integer.parseInt(tabla_gastos.getValueAt(18, 2).toString()), Integer.parseInt(tabla_gastos.getValueAt(19, 1).toString()), Integer.parseInt(tabla_gastos.getValueAt(19, 2).toString()), Integer.parseInt(tabla_gastos.getValueAt(20,1).toString()), Integer.parseInt(tabla_gastos.getValueAt(20,2).toString()), Integer.parseInt(tabla_gastos.getValueAt(21,1).toString()), Integer.parseInt(tabla_gastos.getValueAt(21,2).toString()), Integer.parseInt(tabla_gastos.getValueAt(22,1).toString()), Integer.parseInt(tabla_gastos.getValueAt(22,2).toString()), Integer.parseInt(tabla_gastos.getValueAt(23,1).toString()), Integer.parseInt(tabla_gastos.getValueAt(23,2).toString()), Integer.parseInt(tabla_gastos.getValueAt(24,1).toString()), Integer.parseInt(tabla_gastos.getValueAt(24,2).toString()), Integer.parseInt(tabla_gastos.getValueAt(25,1).toString()), Integer.parseInt(tabla_gastos.getValueAt(25,2).toString()), Integer.parseInt(tabla_gastos.getValueAt(26,1).toString()), Integer.parseInt(tabla_gastos.getValueAt(26,2).toString()), Integer.parseInt(tabla_gastos.getValueAt(27,1).toString()), Integer.parseInt(tabla_gastos.getValueAt(27,2).toString()), Integer.parseInt(tabla_gastos.getValueAt(28,1).toString()), Integer.parseInt(tabla_gastos.getValueAt(28,2).toString()), Integer.parseInt(tabla_gastos.getValueAt(29,1).toString()), Integer.parseInt(tabla_gastos.getValueAt(29,2).toString()), Integer.parseInt(tabla_gastos.getValueAt(30,1).toString()), Integer.parseInt(tabla_gastos.getValueAt(30,2).toString()), Integer.parseInt(tabla_gastos.getValueAt(31,1).toString()), Integer.parseInt(tabla_gastos.getValueAt(31,2).toString()), Integer.parseInt(tabla_gastos.getValueAt(32,1).toString()), Integer.parseInt(tabla_gastos.getValueAt(32,2).toString()), Integer.parseInt(tabla_gastos.getValueAt(33,1).toString()), Integer.parseInt(tabla_gastos.getValueAt(33,2).toString()), Integer.parseInt(tabla_gastos.getValueAt(34,1).toString()), Integer.parseInt(tabla_gastos.getValueAt(34,2).toString()), Integer.parseInt(tabla_gastos.getValueAt(35,1).toString()), Integer.parseInt(tabla_gastos.getValueAt(35,2).toString()), Integer.parseInt(tabla_gastos.getValueAt(36,1).toString()), Integer.parseInt(tabla_gastos.getValueAt(36,2).toString()), Integer.parseInt(tabla_gastos.getValueAt(37,1).toString()), Integer.parseInt(tabla_gastos.getValueAt(37,2).toString()), Integer.parseInt(tabla_gastos.getValueAt(38,1).toString()), Integer.parseInt(tabla_gastos.getValueAt(38,2).toString()), Integer.parseInt(tabla_gastos.getValueAt(39,1).toString()),Integer.parseInt(tabla_ventas.getValueAt(39, 2).toString()));
-            JOptionPane.showMessageDialog(null,"Los datos de Gastos Operacionales y otros Ingresos de la Empresa "+razonsocial.getText()+" en el año "+ANIO6.getValue().toString()+" han sido creada correctamente");            
-            //JOptionPane.showMessageDialog(null, Integer.parseInt(tabla_gastos.getValueAt(0, 1).toString())+ " "+ Integer.parseInt(tabla_gastos.getValueAt(1, 1).toString()));
+        {            
+            im.ingreso_gastosOperacionales(jTextField21.getText(), Integer.parseInt(ANIO6.getValue().toString()), Integer.parseInt(p54.getText()),Integer.parseInt(e54.getText()), Integer.parseInt(p55.getText()), Integer.parseInt(e55.getText()), Integer.parseInt(p56.getText()), Integer.parseInt(e56.getText()), Integer.parseInt(p57.getText()), Integer.parseInt(e57.getText()), Integer.parseInt(p58.getText()), Integer.parseInt(e58.getText()), Integer.parseInt(p59.getText()), Integer.parseInt(e59.getText()), Integer.parseInt(p60.getText()), Integer.parseInt(e60.getText()), Integer.parseInt(p61.getText()), Integer.parseInt(e61.getText()), Integer.parseInt(p62.getText()), Integer.parseInt(e62.getText()), Integer.parseInt(p63.getText()), Integer.parseInt(e63.getText()), Integer.parseInt(p64.getText()), Integer.parseInt(e64.getText()), Integer.parseInt(p65.getText()), Integer.parseInt(e65.getText()), Integer.parseInt(p66.getText()), Integer.parseInt(e66.getText()), Integer.parseInt(p67.getText()), Integer.parseInt(e67.getText()), Integer.parseInt(p68.getText()), Integer.parseInt(e68.getText()), Integer.parseInt(p69.getText()), Integer.parseInt(e69.getText()), Integer.parseInt(p70.getText()), Integer.parseInt(e70.getText()), Integer.parseInt(p71.getText()), Integer.parseInt(e71.getText()), Integer.parseInt(p72.getText()), Integer.parseInt(e72.getText()), Integer.parseInt(p73.getText()), Integer.parseInt(e73.getText()), Integer.parseInt(p74.getText()), Integer.parseInt(e74.getText()), Integer.parseInt(p75.getText()), Integer.parseInt(e75.getText()), Integer.parseInt(p76.getText()), Integer.parseInt(e76.getText()), Integer.parseInt(p77.getText()), Integer.parseInt(e77.getText()), Integer.parseInt(p78.getText()), Integer.parseInt(e78.getText()), Integer.parseInt(p79.getText()), Integer.parseInt(e79.getText()), Integer.parseInt(p80.getText()), Integer.parseInt(e80.getText()), Integer.parseInt(p81.getText()), Integer.parseInt(e81.getText()), Integer.parseInt(p82.getText()), Integer.parseInt(e82.getText()), Integer.parseInt(p83.getText()), Integer.parseInt(e83.getText()), Integer.parseInt(p84.getText()), Integer.parseInt(e84.getText()), Integer.parseInt(p85.getText()), Integer.parseInt(e85.getText()), Integer.parseInt(p86.getText()), Integer.parseInt(e86.getText()), Integer.parseInt(p87.getText()), Integer.parseInt(e87.getText()), Integer.parseInt(p88.getText()), Integer.parseInt(e88.getText()), Integer.parseInt(p89.getText()), Integer.parseInt(e89.getText()), Integer.parseInt(p90.getText()), Integer.parseInt(e90.getText()), Integer.parseInt(p91.getText()), Integer.parseInt(e91.getText()), Integer.parseInt(p92.getText()), Integer.parseInt(e92.getText()), Integer.parseInt(p93.getText()), Integer.parseInt(e93.getText()));
+            im.ingreso_gastosOperacionales2(jTextField21.getText(), Integer.parseInt(ANIO6.getValue().toString()), Integer.parseInt(p94.getText()), Integer.parseInt(e94.getText()), Integer.parseInt(p95.getText()), Integer.parseInt(e95.getText()), Integer.parseInt(p96.getText()), Integer.parseInt(e96.getText()), Integer.parseInt(p97.getText()), Integer.parseInt(e97.getText()), Integer.parseInt(p98.getText()), Integer.parseInt(e98.getText()), Integer.parseInt(p99.getText()), Integer.parseInt(e99.getText()), Integer.parseInt(p100.getText()), Integer.parseInt(e100.getText()), Integer.parseInt(p101.getText()), Integer.parseInt(e101.getText()), Integer.parseInt(p102.getText()), Integer.parseInt(e102.getText()), Integer.parseInt(p103.getText()), Integer.parseInt(e103.getText()), Integer.parseInt(p104.getText()), Integer.parseInt(e104.getText()), Integer.parseInt(p105.getText()), Integer.parseInt(e105.getText()), Integer.parseInt(p106.getText()), Integer.parseInt(e106.getText()), Integer.parseInt(p107.getText()), Integer.parseInt(e107.getText()), Integer.parseInt(p108.getText()), Integer.parseInt(e108.getText()), Integer.parseInt(p109.getText()), Integer.parseInt(e109.getText()), Integer.parseInt(p110.getText()), Integer.parseInt(e110.getText()));
+            JOptionPane.showMessageDialog(null,"Los datos de Gastos Operacionales y otros Ingresos de la Empresa "+razonsocial.getText()+" en el año "+ANIO6.getValue().toString()+" han sido creada correctamente");                        
         }
     }//GEN-LAST:event_CREARBOTONGUARDAR4MouseClicked
      
@@ -5252,7 +6629,11 @@ public class Gestion_Crear extends javax.swing.JFrame {
     ingreso_modificacion im = new ingreso_modificacion();
     
     private void CREARBOTONGUARDAR7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_CREARBOTONGUARDAR7MouseClicked
-        if(Integer.parseInt(ANIO1.getValue().toString()) > 0){
+        if((Integer.parseInt(ANIO1.getValue().toString()) == 0)||(iva_cobrado.getText().equals(""))||(iva_pagado.getText().equals(""))||(ice_val.getText().equals(""))||(impuesto_predial_val.getText().equals(""))||(impuetos_netos_val.getText().equals(""))||                (materias_enero.getText().equals(""))||(combustibles_enero.getText().equals(""))||(terminados_enero.getText().equals(""))||(proceso_enero.getText().equals(""))||(mercaderia_enero.getText().equals(""))||(bienes_enero.getText().equals(""))||                (materias_diciembre.getText().equals(""))||(combustibles_diciembre.getText().equals(""))||(terminados_diciembre.getText().equals(""))||(proceso_diciembre.getText().equals(""))||(mercaderia_diciembre.getText().equals(""))||(bienes_diciembre.getText().equals(""))||                (energia_producida_UM.getText().equals(""))||(energia_comprada_UM.getText().equals(""))||(agua_potable_UM.getText().equals(""))||(agua_natural_UM.getText().equals(""))||                (energia_producida_cant.getText().equals(""))||(energia_comprada_cant.getText().equals(""))||(agua_potable_cant.getText().equals(""))||(agua_natural_cant.getText().equals(""))||                (energia_producida_val.getText().equals(""))||(energia_comprada_val.getText().equals(""))||(agua_potable_val.getText().equals(""))||(agua_natural_val.getText().equals(""))||                (gasolina_UM.getText().equals(""))||(diesel_UM.getText().equals(""))||(residuo_um.getText().equals(""))||(gas_um.getText().equals(""))||(aceite_UM.getText().equals(""))||(grasas_UM.getText().equals(""))||(otros_UM.getText().equals(""))||(gasolina_Cant.getText().equals(""))||(diesel_cant.getText().equals(""))||(residuo_cant.getText().equals(""))||(gas_cant.getText().equals(""))||(aceite_cant.getText().equals(""))||(grasa_cant.getText().equals(""))||(otros_cant.getText().equals(""))||          (gasolina_val.getText().equals(""))||(diesel_val.getText().equals(""))||(residuo_val.getText().equals(""))||(gas_val.getText().equals(""))||(aceite_val.getText().equals(""))||(grasa_val.getText().equals(""))||(otros_val.getText().equals(""))){
+            JOptionPane.showMessageDialog(this, "Uno o varios cambos estan vacios!!!");            
+        }
+        else           
+        {
             im.ingreso_cONBUSTIBLES(ruc.getText(), Integer.parseInt(ANIO1.getValue().toString()), gasolina_UM.getText(), Integer.parseInt(gasolina_Cant.getText()), Integer.parseInt(gasolina_val.getText()), diesel_UM.getText(), Integer.parseInt(diesel_cant.getText()), Integer.parseInt(diesel_val.getText()), residuo_um.getText(), Integer.parseInt(residuo_cant.getText()), Integer.parseInt(residuo_val.getText()),gas_um.getText(), Integer.parseInt(gas_cant.getText()), Integer.parseInt(gas_val.getText()), aceite_UM.getText(), Integer.parseInt(aceite_cant.getText()), Integer.parseInt(aceite_val.getText()), grasas_UM.getText(), Integer.parseInt(grasa_cant.getText()), Integer.parseInt(grasa_val.getText()), otros_UM.getText(), Integer.parseInt(otros_cant.getText()), Integer.parseInt(otros_val.getText()));
             im.ingreso_Impuestos(ruc.getText(), Integer.parseInt(ANIO1.getValue().toString()), Integer.parseInt(iva_cobrado.getText()), Integer.parseInt(iva_pagado.getText()), Integer.parseInt(ice_val.getText()), Integer.parseInt(impuesto_predial_val.getText()), Integer.parseInt(otros_impuestos_val.getText()), Integer.parseInt(impuetos_netos_val.getText()));
             im.ingreso_Electricidad(ruc.getText(), Integer.parseInt(ANIO1.getValue().toString()), energia_producida_UM.getText(), Integer.parseInt(energia_producida_cant.getText()), Integer.parseInt(energia_producida_val.getText()), energia_comprada_UM.getText(), Integer.parseInt(energia_comprada_cant.getText()), Integer.parseInt(energia_comprada_val.getText()), agua_potable_UM.getText(), Integer.parseInt(agua_potable_cant.getText()), Integer.parseInt(agua_potable_val.getText()), agua_natural_UM.getText(),Integer.parseInt(agua_natural_cant.getText()), Integer.parseInt(agua_natural_val.getText()));
@@ -5271,9 +6652,21 @@ public class Gestion_Crear extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_nombreActionPerformed
 
+    private String descripcion_a;
+    private String nd0_a;
+    private String UM;
+    private String nd1_a_c;
+    private String nd1_a_v;
+    private String nd2_a_c;
+    private String nd2_a_v;
+    private String nd3_a_c;
+    private String nd3_a_v;
+    private String nd4_a;    
+    private int contador =1;
+    
     private void agregarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_agregarMouseClicked
-     
-       DefaultTableModel modelo = (DefaultTableModel) tabla_materias.getModel();
+  
+        DefaultTableModel modelo = (DefaultTableModel) tabla_materias.getModel();
            Object [] datos=new Object[10]; 
            datos[0]=nombre.getText();
            datos[1]=nd0.getText();
@@ -5285,7 +6678,33 @@ public class Gestion_Crear extends javax.swing.JFrame {
            datos[7]=nd3cantidad.getValue();
            datos[8]=nd3valor.getText().toString();
            datos[9]= nd4.getText();
-       modelo.addRow(datos);
+        modelo.addRow(datos);
+        if(contador == 1)
+        {
+            descripcion_a ="'"+nombre.getText()+"'";
+            nd0_a =nd0.getText();
+            UM ="'"+unidad.getText()+"'";
+            nd1_a_c = nd1cantidad.getValue().toString();
+            nd2_a_c = nd2cantidad.getValue().toString();
+            nd3_a_c =nd3cantidad.getValue().toString();
+            nd1_a_v =nd1valor.getText();
+            nd2_a_v =nd2valor.getText();
+            nd3_a_v =nd3valor.getText();
+            nd4_a =nd4.getText();
+            contador++;
+        }
+        else{
+            descripcion_a  +=" ,'"+nombre.getText()+"'";
+            nd0_a +=" ,"+nd0.getText();
+            UM +=" ,'"+unidad.getText()+"'";
+            nd1_a_c += ","+nd1cantidad.getValue().toString();
+            nd2_a_c +=" ,"+nd2cantidad.getValue().toString();
+            nd3_a_c +=" ,"+nd3cantidad.getValue().toString();
+            nd1_a_v +=" ,"+nd1valor.getText();
+            nd2_a_v +=" ,"+nd2valor.getText();
+            nd3_a_v +=" ,"+nd3valor.getText();
+            nd4_a +=" ,"+nd4.getText();
+        }
         // TODO add your handling code here:
     }//GEN-LAST:event_agregarMouseClicked
 
@@ -5468,10 +6887,14 @@ public class Gestion_Crear extends javax.swing.JFrame {
     }//GEN-LAST:event_guardar_sueldoActionPerformed
 
     private void guardar_sueldoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_guardar_sueldoMouseClicked
-        if(Integer.parseInt(ANIO8.getValue().toString()) > 0)
+        if((Integer.parseInt(ANIO8.getValue().toString()) <= 0)||(socios_tmujeres.getText().equals(""))||(ejecutivos_tmujeres.getText().equals(""))||(empleado_tmujeres.getText().equals(""))||(obrero_tmujeres.getText().equals(""))||                (socios_Smujeres.getText().equals(""))||(ejecutivos_Smujeres.getText().equals(""))||(empleado_Smujeres.getText().equals(""))||(obrero_Smujeres.getText().equals(""))||                (socios_thombres.getText().equals(""))||(ejecutivos_thombres.getText().equals(""))||(empleado_thombres.getText().equals(""))||(obrero_thombres.getText().equals(""))||                (socios_Shombres.getText().equals(""))||(ejecutivos_Shombres.getText().equals(""))||(empleado_Shombres.getText().equals(""))||(obrero_Shombres.getText().equals("")))
         {
-           im.ingreso_personalSueldo(ruc.getText(), Integer.parseInt(ANIO8.getValue().toString()), Integer.parseInt(socios_tmujeres.getText()), Integer.parseInt(socios_Smujeres.getText()), Integer.parseInt(socios_thombres.getText()), Integer.parseInt(socios_Shombres.getText()), Integer.parseInt(ejecutivos_tmujeres.getText()), Integer.parseInt(ejecutivos_Smujeres.getText()), Integer.parseInt(ejecutivos_thombres.getText()),Integer.parseInt(ejecutivos_Shombres.getText()), Integer.parseInt(obrero_tmujeres.getText()), Integer.parseInt(obrero_Smujeres.getText()), Integer.parseInt(obrero_thombres.getText()), Integer.parseInt(obrero_Shombres.getText()), Integer.parseInt(empleado_tmujeres.getText()), Integer.parseInt(empleado_Smujeres.getText()), Integer.parseInt(empleado_thombres.getText()), Integer.parseInt(empleado_Shombres.getText()));
-           JOptionPane.showMessageDialog(this, "Los datos de Personal y Salario de la Empresa "+razonsocial.getText()+" en el año "+ANIO8.getValue().toString()+" han sido creada correctamente");           
+           JOptionPane.showMessageDialog(this, "Uno o varios cambos estan vacios!!!");
+        }
+        else 
+        {
+            im.ingreso_personalSueldo(ruc.getText(), Integer.parseInt(ANIO8.getValue().toString()), Integer.parseInt(socios_tmujeres.getText()), Integer.parseInt(socios_Smujeres.getText()), Integer.parseInt(socios_thombres.getText()), Integer.parseInt(socios_Shombres.getText()), Integer.parseInt(ejecutivos_tmujeres.getText()), Integer.parseInt(ejecutivos_Smujeres.getText()), Integer.parseInt(ejecutivos_thombres.getText()),Integer.parseInt(ejecutivos_Shombres.getText()), Integer.parseInt(obrero_tmujeres.getText()), Integer.parseInt(obrero_Smujeres.getText()), Integer.parseInt(obrero_thombres.getText()), Integer.parseInt(obrero_Shombres.getText()), Integer.parseInt(empleado_tmujeres.getText()), Integer.parseInt(empleado_Smujeres.getText()), Integer.parseInt(empleado_thombres.getText()), Integer.parseInt(empleado_Shombres.getText()));
+           JOptionPane.showMessageDialog(this, "Los datos de Personal y Salario de la Empresa "+razonsocial.getText()+" en el año "+ANIO8.getValue().toString()+" han sido creada correctamente");                       
         }
     }//GEN-LAST:event_guardar_sueldoMouseClicked
 
@@ -7441,6 +8864,605 @@ public class Gestion_Crear extends javax.swing.JFrame {
         if(c < '0' || c > '9')evt.consume();
     }//GEN-LAST:event_p53KeyTyped
 
+    private void p54KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p54KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p54KeyTyped
+
+    private void e54KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e54KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e54KeyTyped
+
+    private void p55KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p55KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p55KeyTyped
+
+    private void e55KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e55KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e55KeyTyped
+
+    private void p56KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p56KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p56KeyTyped
+
+    private void e56KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e56KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e56KeyTyped
+
+    private void p57KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p57KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p57KeyTyped
+
+    private void e57KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e57KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e57KeyTyped
+
+    private void p58KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p58KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p58KeyTyped
+
+    private void e58KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e58KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e58KeyTyped
+
+    private void p59KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p59KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p59KeyTyped
+
+    private void e59KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e59KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e59KeyTyped
+
+    private void p60KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p60KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p60KeyTyped
+
+    private void e60KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e60KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e60KeyTyped
+
+    private void p61KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p61KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p61KeyTyped
+
+    private void e61KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e61KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e61KeyTyped
+
+    private void p62KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p62KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p62KeyTyped
+
+    private void e62KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e62KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e62KeyTyped
+
+    private void p63KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p63KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p63KeyTyped
+
+    private void e63KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e63KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e63KeyTyped
+
+    private void p64KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p64KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p64KeyTyped
+
+    private void e64KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e64KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e64KeyTyped
+
+    private void p65KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p65KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p65KeyTyped
+
+    private void e65KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e65KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e65KeyTyped
+
+    private void p66KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p66KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p66KeyTyped
+
+    private void e66KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e66KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e66KeyTyped
+
+    private void p67KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p67KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p67KeyTyped
+
+    private void e67KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e67KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e67KeyTyped
+
+    private void p68KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p68KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p68KeyTyped
+
+    private void e68KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e68KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e68KeyTyped
+
+    private void p69KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p69KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p69KeyTyped
+
+    private void e69KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e69KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e69KeyTyped
+
+    private void p70KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p70KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p70KeyTyped
+
+    private void e70KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e70KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e70KeyTyped
+
+    private void p71KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p71KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p71KeyTyped
+
+    private void e71KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e71KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e71KeyTyped
+
+    private void p72KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p72KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p72KeyTyped
+
+    private void e72KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e72KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e72KeyTyped
+
+    private void p73KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p73KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p73KeyTyped
+
+    private void e73KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e73KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e73KeyTyped
+
+    private void p74KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p74KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p74KeyTyped
+
+    private void e74KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e74KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e74KeyTyped
+
+    private void p75KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p75KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p75KeyTyped
+
+    private void e75KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e75KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e75KeyTyped
+
+    private void p76KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p76KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p76KeyTyped
+
+    private void e76KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e76KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e76KeyTyped
+
+    private void p77KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p77KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p77KeyTyped
+
+    private void e77KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e77KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e77KeyTyped
+
+    private void p78KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p78KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p78KeyTyped
+
+    private void e78KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e78KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e78KeyTyped
+
+    private void p79KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p79KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p79KeyTyped
+
+    private void e79KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e79KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e79KeyTyped
+
+    private void p80KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p80KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p80KeyTyped
+
+    private void e80KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e80KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e80KeyTyped
+
+    private void p81KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p81KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p81KeyTyped
+
+    private void e81KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e81KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e81KeyTyped
+
+    private void p82KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p82KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p82KeyTyped
+
+    private void e82KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e82KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e82KeyTyped
+
+    private void p83KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p83KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p83KeyTyped
+
+    private void e83KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e83KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e83KeyTyped
+
+    private void p84KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p84KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p84KeyTyped
+
+    private void e84KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e84KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e84KeyTyped
+
+    private void p85KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p85KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p85KeyTyped
+
+    private void e85KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e85KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e85KeyTyped
+
+    private void p86KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p86KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p86KeyTyped
+
+    private void e86KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e86KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e86KeyTyped
+
+    private void p87KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p87KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p87KeyTyped
+
+    private void e87KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e87KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e87KeyTyped
+
+    private void p88KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p88KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p88KeyTyped
+
+    private void e88KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e88KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e88KeyTyped
+
+    private void p89KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p89KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p89KeyTyped
+
+    private void e89KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e89KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e89KeyTyped
+
+    private void p90KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p90KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p90KeyTyped
+
+    private void e90KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e90KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e90KeyTyped
+
+    private void p91KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p91KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p91KeyTyped
+
+    private void e91KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e91KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e91KeyTyped
+
+    private void p92KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p92KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p92KeyTyped
+
+    private void e92KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e92KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e92KeyTyped
+
+    private void p93KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p93KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p93KeyTyped
+
+    private void e93KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e93KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e93KeyTyped
+
+    private void p94KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p94KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p94KeyTyped
+
+    private void e94KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e94KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e94KeyTyped
+
+    private void p95KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p95KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p95KeyTyped
+
+    private void e95KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e95KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e95KeyTyped
+
+    private void p96KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p96KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p96KeyTyped
+
+    private void e96KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e96KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e96KeyTyped
+
+    private void p97KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p97KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p97KeyTyped
+
+    private void e97KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e97KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e97KeyTyped
+
+    private void p98KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p98KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p98KeyTyped
+
+    private void e98KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e98KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e98KeyTyped
+
+    private void p99KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p99KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p99KeyTyped
+
+    private void e99KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e99KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e99KeyTyped
+
+    private void p100KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p100KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p100KeyTyped
+
+    private void e100KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e100KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e100KeyTyped
+
+    private void p101KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p101KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p101KeyTyped
+
+    private void e101KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e101KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e101KeyTyped
+
+    private void p102KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p102KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p102KeyTyped
+
+    private void e102KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e102KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e102KeyTyped
+
+    private void p103KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p103KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p103KeyTyped
+
+    private void e103KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e103KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e103KeyTyped
+
+    private void p104KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p104KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p104KeyTyped
+
+    private void e104KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e104KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e104KeyTyped
+
+    private void p105KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p105KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p105KeyTyped
+
+    private void e105KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e105KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e105KeyTyped
+
+    private void p106KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p106KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p106KeyTyped
+
+    private void e106KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e106KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e106KeyTyped
+
+    private void p107KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p107KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p107KeyTyped
+
+    private void e107KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e107KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e107KeyTyped
+
+    private void p108KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p108KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p108KeyTyped
+
+    private void e108KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e108KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e108KeyTyped
+
+    private void p109KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p109KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p109KeyTyped
+
+    private void e109KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e109KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e109KeyTyped
+
+    private void p110KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_p110KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_p110KeyTyped
+
+    private void e110KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_e110KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_e110KeyTyped
+
+    private void nd0KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_nd0KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_nd0KeyTyped
+
+    private void nd1valorKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_nd1valorKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_nd1valorKeyTyped
+
+    private void nd3valorKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_nd3valorKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_nd3valorKeyTyped
+
+    private void nd4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_nd4KeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_nd4KeyTyped
+
+    private void nd2valorKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_nd2valorKeyTyped
+        char c = evt.getKeyChar();
+        if(c < '0' || c > '9')evt.consume();
+    }//GEN-LAST:event_nd2valorKeyTyped
+
+    private void agregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_agregarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_agregarActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -7537,7 +9559,18 @@ public class Gestion_Crear extends javax.swing.JFrame {
     private javax.swing.JTextField diesel_val;
     private javax.swing.JTextField direccion;
     private javax.swing.JTextField e1;
+    private javax.swing.JTextField e100;
+    private javax.swing.JTextField e101;
+    private javax.swing.JTextField e102;
+    private javax.swing.JTextField e103;
+    private javax.swing.JTextField e104;
+    private javax.swing.JTextField e105;
+    private javax.swing.JTextField e106;
+    private javax.swing.JTextField e107;
+    private javax.swing.JTextField e108;
+    private javax.swing.JTextField e109;
     private javax.swing.JTextField e11;
+    private javax.swing.JTextField e110;
     private javax.swing.JTextField e12;
     private javax.swing.JTextField e13;
     private javax.swing.JTextField e14;
@@ -7580,6 +9613,52 @@ public class Gestion_Crear extends javax.swing.JFrame {
     private javax.swing.JTextField e51;
     private javax.swing.JTextField e52;
     private javax.swing.JTextField e53;
+    private javax.swing.JTextField e54;
+    private javax.swing.JTextField e55;
+    private javax.swing.JTextField e56;
+    private javax.swing.JTextField e57;
+    private javax.swing.JTextField e58;
+    private javax.swing.JTextField e59;
+    private javax.swing.JTextField e60;
+    private javax.swing.JTextField e61;
+    private javax.swing.JTextField e62;
+    private javax.swing.JTextField e63;
+    private javax.swing.JTextField e64;
+    private javax.swing.JTextField e65;
+    private javax.swing.JTextField e66;
+    private javax.swing.JTextField e67;
+    private javax.swing.JTextField e68;
+    private javax.swing.JTextField e69;
+    private javax.swing.JTextField e70;
+    private javax.swing.JTextField e71;
+    private javax.swing.JTextField e72;
+    private javax.swing.JTextField e73;
+    private javax.swing.JTextField e74;
+    private javax.swing.JTextField e75;
+    private javax.swing.JTextField e76;
+    private javax.swing.JTextField e77;
+    private javax.swing.JTextField e78;
+    private javax.swing.JTextField e79;
+    private javax.swing.JTextField e80;
+    private javax.swing.JTextField e81;
+    private javax.swing.JTextField e82;
+    private javax.swing.JTextField e83;
+    private javax.swing.JTextField e84;
+    private javax.swing.JTextField e85;
+    private javax.swing.JTextField e86;
+    private javax.swing.JTextField e87;
+    private javax.swing.JTextField e88;
+    private javax.swing.JTextField e89;
+    private javax.swing.JTextField e90;
+    private javax.swing.JTextField e91;
+    private javax.swing.JTextField e92;
+    private javax.swing.JTextField e93;
+    private javax.swing.JTextField e94;
+    private javax.swing.JTextField e95;
+    private javax.swing.JTextField e96;
+    private javax.swing.JTextField e97;
+    private javax.swing.JTextField e98;
+    private javax.swing.JTextField e99;
     private javax.swing.JTextField ecomputacion_año;
     private javax.swing.JTextField ecomputacion_d1;
     private javax.swing.JTextField ecomputacion_d10;
@@ -7760,13 +9839,70 @@ public class Gestion_Crear extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel174;
     private javax.swing.JLabel jLabel175;
     private javax.swing.JLabel jLabel176;
+    private javax.swing.JLabel jLabel177;
+    private javax.swing.JLabel jLabel178;
+    private javax.swing.JLabel jLabel179;
     private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel180;
+    private javax.swing.JLabel jLabel181;
+    private javax.swing.JLabel jLabel182;
+    private javax.swing.JLabel jLabel183;
+    private javax.swing.JLabel jLabel184;
+    private javax.swing.JLabel jLabel185;
+    private javax.swing.JLabel jLabel186;
+    private javax.swing.JLabel jLabel187;
+    private javax.swing.JLabel jLabel188;
+    private javax.swing.JLabel jLabel189;
     private javax.swing.JLabel jLabel19;
+    private javax.swing.JLabel jLabel190;
+    private javax.swing.JLabel jLabel191;
+    private javax.swing.JLabel jLabel192;
+    private javax.swing.JLabel jLabel193;
+    private javax.swing.JLabel jLabel194;
+    private javax.swing.JLabel jLabel195;
+    private javax.swing.JLabel jLabel196;
+    private javax.swing.JLabel jLabel197;
+    private javax.swing.JLabel jLabel198;
+    private javax.swing.JLabel jLabel199;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel200;
+    private javax.swing.JLabel jLabel201;
+    private javax.swing.JLabel jLabel202;
+    private javax.swing.JLabel jLabel203;
+    private javax.swing.JLabel jLabel204;
+    private javax.swing.JLabel jLabel205;
+    private javax.swing.JLabel jLabel206;
+    private javax.swing.JLabel jLabel207;
+    private javax.swing.JLabel jLabel208;
+    private javax.swing.JLabel jLabel209;
     private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel210;
+    private javax.swing.JLabel jLabel211;
+    private javax.swing.JLabel jLabel212;
+    private javax.swing.JLabel jLabel213;
+    private javax.swing.JLabel jLabel214;
+    private javax.swing.JLabel jLabel215;
+    private javax.swing.JLabel jLabel216;
+    private javax.swing.JLabel jLabel217;
+    private javax.swing.JLabel jLabel218;
+    private javax.swing.JLabel jLabel219;
     private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel220;
+    private javax.swing.JLabel jLabel221;
+    private javax.swing.JLabel jLabel222;
+    private javax.swing.JLabel jLabel223;
+    private javax.swing.JLabel jLabel224;
+    private javax.swing.JLabel jLabel225;
+    private javax.swing.JLabel jLabel226;
+    private javax.swing.JLabel jLabel227;
+    private javax.swing.JLabel jLabel228;
+    private javax.swing.JLabel jLabel229;
     private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel230;
+    private javax.swing.JLabel jLabel231;
+    private javax.swing.JLabel jLabel232;
+    private javax.swing.JLabel jLabel233;
     private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel26;
@@ -7864,6 +10000,8 @@ public class Gestion_Crear extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane13;
     private javax.swing.JScrollPane jScrollPane14;
     private javax.swing.JScrollPane jScrollPane15;
+    private javax.swing.JScrollPane jScrollPane16;
+    private javax.swing.JScrollPane jScrollPane17;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
@@ -7999,7 +10137,18 @@ public class Gestion_Crear extends javax.swing.JFrame {
     private javax.swing.JTextField otros_servicios_val;
     private javax.swing.JTextField otros_val;
     private javax.swing.JTextField p1;
+    private javax.swing.JTextField p100;
+    private javax.swing.JTextField p101;
+    private javax.swing.JTextField p102;
+    private javax.swing.JTextField p103;
+    private javax.swing.JTextField p104;
+    private javax.swing.JTextField p105;
+    private javax.swing.JTextField p106;
+    private javax.swing.JTextField p107;
+    private javax.swing.JTextField p108;
+    private javax.swing.JTextField p109;
     private javax.swing.JTextField p11;
+    private javax.swing.JTextField p110;
     private javax.swing.JTextField p12;
     private javax.swing.JTextField p13;
     private javax.swing.JTextField p14;
@@ -8042,6 +10191,52 @@ public class Gestion_Crear extends javax.swing.JFrame {
     private javax.swing.JTextField p51;
     private javax.swing.JTextField p52;
     private javax.swing.JTextField p53;
+    private javax.swing.JTextField p54;
+    private javax.swing.JTextField p55;
+    private javax.swing.JTextField p56;
+    private javax.swing.JTextField p57;
+    private javax.swing.JTextField p58;
+    private javax.swing.JTextField p59;
+    private javax.swing.JTextField p60;
+    private javax.swing.JTextField p61;
+    private javax.swing.JTextField p62;
+    private javax.swing.JTextField p63;
+    private javax.swing.JTextField p64;
+    private javax.swing.JTextField p65;
+    private javax.swing.JTextField p66;
+    private javax.swing.JTextField p67;
+    private javax.swing.JTextField p68;
+    private javax.swing.JTextField p69;
+    private javax.swing.JTextField p70;
+    private javax.swing.JTextField p71;
+    private javax.swing.JTextField p72;
+    private javax.swing.JTextField p73;
+    private javax.swing.JTextField p74;
+    private javax.swing.JTextField p75;
+    private javax.swing.JTextField p76;
+    private javax.swing.JTextField p77;
+    private javax.swing.JTextField p78;
+    private javax.swing.JTextField p79;
+    private javax.swing.JTextField p80;
+    private javax.swing.JTextField p81;
+    private javax.swing.JTextField p82;
+    private javax.swing.JTextField p83;
+    private javax.swing.JTextField p84;
+    private javax.swing.JTextField p85;
+    private javax.swing.JTextField p86;
+    private javax.swing.JTextField p87;
+    private javax.swing.JTextField p88;
+    private javax.swing.JTextField p89;
+    private javax.swing.JTextField p90;
+    private javax.swing.JTextField p91;
+    private javax.swing.JTextField p92;
+    private javax.swing.JTextField p93;
+    private javax.swing.JTextField p94;
+    private javax.swing.JTextField p95;
+    private javax.swing.JTextField p96;
+    private javax.swing.JTextField p97;
+    private javax.swing.JTextField p98;
+    private javax.swing.JTextField p99;
     private javax.swing.JTextField pagina;
     private javax.swing.JTextField patentes_año_compra;
     private javax.swing.JTextField patentes_d1;
@@ -8068,6 +10263,8 @@ public class Gestion_Crear extends javax.swing.JFrame {
     private javax.swing.JTable tabla_combustible;
     private javax.swing.JTable tabla_energia;
     private javax.swing.JTable tabla_gastos;
+    private javax.swing.JTable tabla_gastos1;
+    private javax.swing.JTable tabla_gastos2;
     private javax.swing.JTable tabla_impuesto;
     private javax.swing.JTable tabla_inventarios;
     private javax.swing.JTable tabla_materias;
