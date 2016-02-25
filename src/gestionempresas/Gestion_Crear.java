@@ -455,6 +455,7 @@ public class Gestion_Crear extends javax.swing.JFrame {
         e109 = new javax.swing.JTextField();
         p110 = new javax.swing.JTextField();
         e110 = new javax.swing.JTextField();
+        jButton8 = new javax.swing.JButton();
         tabcombustibles = new javax.swing.JPanel();
         tabcombustible = new javax.swing.JPanel();
         jLabel18 = new javax.swing.JLabel();
@@ -583,6 +584,7 @@ public class Gestion_Crear extends javax.swing.JFrame {
         tabla_materias = new javax.swing.JTable();
         ANIO2 = new javax.swing.JSpinner();
         jLabel69 = new javax.swing.JLabel();
+        jButton6 = new javax.swing.JButton();
         tabproductos = new javax.swing.JPanel();
         jPanel12 = new javax.swing.JPanel();
         jLabel42 = new javax.swing.JLabel();
@@ -611,6 +613,7 @@ public class Gestion_Crear extends javax.swing.JFrame {
         tabla_productos = new javax.swing.JTable();
         ANIO4 = new javax.swing.JSpinner();
         jLabel71 = new javax.swing.JLabel();
+        jButton7 = new javax.swing.JButton();
         tabservicios = new javax.swing.JPanel();
         jPanel13 = new javax.swing.JPanel();
         jLabel44 = new javax.swing.JLabel();
@@ -860,6 +863,7 @@ public class Gestion_Crear extends javax.swing.JFrame {
         tabla_mercaderias = new javax.swing.JTable();
         ANIO7 = new javax.swing.JSpinner();
         jLabel74 = new javax.swing.JLabel();
+        jButton5 = new javax.swing.JButton();
 
         jLabel127.setText("Subsidio Familiar");
 
@@ -1618,6 +1622,11 @@ public class Gestion_Crear extends javax.swing.JFrame {
         jLabel176.setBounds(660, 510, 450, 14);
 
         jButton4.setText("LIMPIAR");
+        jButton4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton4MouseClicked(evt);
+            }
+        });
         jPanel8.add(jButton4);
         jButton4.setBounds(1040, 10, 90, 23);
 
@@ -2391,11 +2400,11 @@ public class Gestion_Crear extends javax.swing.JFrame {
         jPanel9.add(jLabel15);
         jLabel15.setBounds(350, 70, 830, 28);
         jPanel9.add(ANIO6);
-        ANIO6.setBounds(1020, 40, 70, 20);
+        ANIO6.setBounds(1020, 30, 70, 20);
 
         jLabel73.setText("AÑO REGISTRO");
         jPanel9.add(jLabel73);
-        jLabel73.setBounds(930, 40, 90, 14);
+        jLabel73.setBounds(930, 30, 90, 14);
 
         jLabel177.setText("dividendos pagados a los accionistas");
         jPanel9.add(jLabel177);
@@ -3614,6 +3623,15 @@ public class Gestion_Crear extends javax.swing.JFrame {
         jPanel9.add(e110);
         e110.setBounds(1240, 470, 80, 20);
 
+        jButton8.setText("LIMPIAR");
+        jButton8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton8MouseClicked(evt);
+            }
+        });
+        jPanel9.add(jButton8);
+        jButton8.setBounds(1110, 30, 90, 23);
+
         tabgastos.add(jPanel9);
         jPanel9.setBounds(0, -10, 1470, 660);
 
@@ -4370,8 +4388,13 @@ public class Gestion_Crear extends javax.swing.JFrame {
                 CREARBOTONGUARDAR5MouseClicked(evt);
             }
         });
+        CREARBOTONGUARDAR5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CREARBOTONGUARDAR5ActionPerformed(evt);
+            }
+        });
         jPanel11.add(CREARBOTONGUARDAR5);
-        CREARBOTONGUARDAR5.setBounds(1010, 30, 100, 90);
+        CREARBOTONGUARDAR5.setBounds(1020, 60, 100, 90);
 
         jLabel10.setText("Nombre de los materiales/ respuestos o accesorios:");
         jPanel11.add(jLabel10);
@@ -4541,6 +4564,15 @@ public class Gestion_Crear extends javax.swing.JFrame {
         jPanel11.add(jLabel69);
         jLabel69.setBounds(850, 10, 90, 14);
 
+        jButton6.setText("LIMPIAR");
+        jButton6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton6MouseClicked(evt);
+            }
+        });
+        jPanel11.add(jButton6);
+        jButton6.setBounds(1100, 10, 110, 23);
+
         tabmaterias.add(jPanel11);
         jPanel11.setBounds(0, 0, 1480, 650);
 
@@ -4578,7 +4610,7 @@ public class Gestion_Crear extends javax.swing.JFrame {
             }
         });
         jPanel12.add(CREARBOTONGUARDAR6);
-        CREARBOTONGUARDAR6.setBounds(1080, 40, 100, 90);
+        CREARBOTONGUARDAR6.setBounds(1080, 60, 100, 90);
 
         jLabel36.setText("Nombre de los productos:");
         jPanel12.add(jLabel36);
@@ -4717,6 +4749,15 @@ public class Gestion_Crear extends javax.swing.JFrame {
         jLabel71.setText("AÑO REGISTRO");
         jPanel12.add(jLabel71);
         jLabel71.setBounds(880, 20, 90, 14);
+
+        jButton7.setText("LIMPIAR");
+        jButton7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton7MouseClicked(evt);
+            }
+        });
+        jPanel12.add(jButton7);
+        jButton7.setBounds(1100, 10, 110, 23);
 
         tabproductos.add(jPanel12);
         jPanel12.setBounds(0, 0, 1480, 650);
@@ -6598,6 +6639,15 @@ public class Gestion_Crear extends javax.swing.JFrame {
         jPanel14.add(jLabel74);
         jLabel74.setBounds(910, 10, 90, 14);
 
+        jButton5.setText("LIMPIAR");
+        jButton5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton5MouseClicked(evt);
+            }
+        });
+        jPanel14.add(jButton5);
+        jButton5.setBounds(1100, 10, 110, 23);
+
         tabcosto.add(jPanel14);
         jPanel14.setBounds(0, 0, 1480, 650);
 
@@ -6614,14 +6664,12 @@ public class Gestion_Crear extends javax.swing.JFrame {
     }//GEN-LAST:event_CREARBOTONGUARDAR6ActionPerformed
 
     private void CREARBOTONGUARDAR6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_CREARBOTONGUARDAR6MouseClicked
-       /* tab.setEnabledAt(tab.indexOfComponent(tabubicacion),true);
-        tab.setEnabledAt(tab.indexOfComponent(tabgastos),true);
-        tab.setSelectedIndex(tab.indexOfComponent(tabubicacion));
-        tab.setEnabledAt(tab.indexOfComponent(tabventas),true);
-        tab.setEnabledAt(tab.indexOfComponent(tabcombustibles),true);
-        tab.setEnabledAt(tab.indexOfComponent(TabPersonal),true);
-        tab.setEnabledAt(tab.indexOfComponent(TabProductividad),true);*/
-        if (Integer.parseInt(ANIO4.getValue().toString()) > 0)
+       
+        if ((Integer.parseInt(ANIO4.getValue().toString()) <= 0)|| (producto).equals("")|| (NN.equals(""))||(UM_p.equals(""))||(NN1_c.equals(""))||(NN1_v.equals(""))||(NN2_c.equals(""))||(NN2_v.equals(""))||(NN3.equals("")))
+        {
+            JOptionPane.showMessageDialog(null, "No contiene datos para almacenar");       
+        }
+        else
         {
             contador_p = 1;
             im.ingreso_producionVenta(ruc.getText(), Integer.parseInt(ANIO4.getValue().toString()), producto, NN, UM_p, NN1_c, NN1_v, NN2_c, NN2_v, NN3);
@@ -6630,17 +6678,27 @@ public class Gestion_Crear extends javax.swing.JFrame {
     }//GEN-LAST:event_CREARBOTONGUARDAR6MouseClicked
 
     private void CREARBOTONGUARDAR5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_CREARBOTONGUARDAR5MouseClicked
-     if (Integer.parseInt(ANIO2.getValue().toString()) > 0)
+     if ((Integer.parseInt(ANIO2.getValue().toString()) <= 0)||(descripcion_a.equals(""))||(nd0_a.equals("")) || (UM.equals("")) || (nd1_a_c.equals("")) || (nd1_a_v.equals("")) || (nd2_a_c.equals(""))||(nd2_a_v.equals(""))||(nd3_a_c.equals("")) || (nd3_a_v.equals("")) || (nd4_a.equals("")))
         {
-            contador = 1;
-            im.ingreso_nombreMateriasPrimasAuxiliares(ruc.getText(), Integer.parseInt(ANIO2.getValue().toString()), descripcion_a, nd0_a, UM, nd1_a_c, nd1_a_v, nd2_a_c, nd2_a_v, nd3_a_c, nd3_a_v, nd4_a);
-            JOptionPane.showMessageDialog(null,"Los datos de Materias primas de la Empresa "+razonsocial.getText()+" en el año "+ANIO2.getValue().toString()+" han sido creada correctamente");                        
+            JOptionPane.showMessageDialog(null, "No contiene datos para almacenar");       
         }
+     else 
+     {
+        contador = 1;
+        im.ingreso_nombreMateriasPrimasAuxiliares(ruc.getText(), Integer.parseInt(ANIO2.getValue().toString()), descripcion_a, nd0_a, UM, nd1_a_c, nd1_a_v, nd2_a_c, nd2_a_v, nd3_a_c, nd3_a_v, nd4_a);
+        JOptionPane.showMessageDialog(null,"Los datos de Materias primas de la Empresa "+razonsocial.getText()+" en el año "+ANIO2.getValue().toString()+" han sido creada correctamente");                        
+            
+            
+     }
     }//GEN-LAST:event_CREARBOTONGUARDAR5MouseClicked
 
     private void CREARBOTONGUARDAR4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_CREARBOTONGUARDAR4MouseClicked
-        if(Integer.parseInt(ANIO6.getValue().toString()) > 0)
+        if(((Integer.parseInt(ANIO6.getValue().toString())) <= 0)||(p54.getText().equals(""))||(p55.getText().equals(""))||(p56.getText().equals(""))||(p57.getText().equals(""))||(p58.getText().equals(""))||(p59.getText().equals(""))||(p60.getText().equals(""))||(p61.getText().equals(""))||(p62.getText().equals(""))||(p63.getText().equals(""))||(p64.getText().equals(""))||(p65.getText().equals(""))||(p66.getText().equals(""))||(p67.getText().equals(""))||(p68.getText().equals(""))||(p69.getText().equals(""))||(p70.getText().equals(""))||(p71.getText().equals(""))||(p72.getText().equals(""))||(p73.getText().equals(""))||(p74.getText().equals(""))||(p75.getText().equals(""))||(p76.getText().equals(""))||(p77.getText().equals(""))||(p78.getText().equals(""))||(p79.getText().equals(""))||(p80.getText().equals(""))||(p81.getText().equals(""))||(p82.getText().equals(""))||(p83.getText().equals(""))||(p84.getText().equals(""))||(p85.getText().equals(""))||(p86.getText().equals(""))||(p87.getText().equals(""))||(p88.getText().equals(""))||(p89.getText().equals(""))||(p90.getText().equals(""))||(p91.getText().equals(""))||(p92.getText().equals(""))||(p93.getText().equals(""))||(p94.getText().equals(""))||(p95.getText().equals(""))||(p96.getText().equals(""))||(p97.getText().equals(""))||(p98.getText().equals(""))||(p99.getText().equals(""))||(p100.getText().equals(""))||(p101.getText().equals(""))||(p102.getText().equals(""))||(p103.getText().equals(""))||(p104.getText().equals(""))||(p105.getText().equals(""))||(p106.getText().equals(""))||(p107.getText().equals(""))||(p108.getText().equals(""))||(p109.getText().equals(""))||(p110.getText().equals(""))||(e54.getText().equals(""))||(e55.getText().equals(""))||(e56.getText().equals(""))||(e57.getText().equals(""))||(e58.getText().equals(""))||(e59.getText().equals(""))||(e60.getText().equals(""))||(e61.getText().equals(""))||(e62.getText().equals(""))||(e53.getText().equals(""))||(e64.getText().equals(""))||(e65.getText().equals(""))||(e66.getText().equals(""))||(e67.getText().equals(""))||(e68.getText().equals(""))||(e69.getText().equals(""))||(e70.getText().equals(""))||(e71.getText().equals(""))||(e72.getText().equals(""))||(e73.getText().equals(""))||(e74.getText().equals(""))||(e75.getText().equals(""))||(e76.getText().equals(""))||(e77.getText().equals(""))||(e78.getText().equals(""))||(e79.getText().equals(""))||(e80.getText().equals(""))||(e81.getText().equals(""))||(e82.getText().equals(""))||(e83.getText().equals(""))||(e84.getText().equals(""))||(e85.getText().equals(""))||(e86.getText().equals(""))||(e87.getText().equals(""))||(e88.getText().equals(""))||(e89.getText().equals(""))||(e90.getText().equals(""))||(e91.getText().equals(""))||(e92.getText().equals(""))||(e93.getText().equals(""))||(e94.getText().equals(""))||(e95.getText().equals(""))||(e96.getText().equals(""))||(e97.getText().equals(""))||(e98.getText().equals(""))||(e99.getText().equals(""))||(e100.getText().equals(""))||(e101.getText().equals(""))||(e102.getText().equals(""))||(e103.getText().equals(""))||(e104.getText().equals(""))||(e105.getText().equals(""))||(e106.getText().equals(""))||(e107.getText().equals(""))||(e108.getText().equals(""))||(e109.getText().equals(""))||(e110.getText().equals("")))
         {            
+            JOptionPane.showMessageDialog(this, "Uno o varios cambos estan vacios!!!");     
+        }
+        else 
+        {
             im.ingreso_gastosOperacionales(jTextField21.getText(), Integer.parseInt(ANIO6.getValue().toString()), Integer.parseInt(p54.getText()),Integer.parseInt(e54.getText()), Integer.parseInt(p55.getText()), Integer.parseInt(e55.getText()), Integer.parseInt(p56.getText()), Integer.parseInt(e56.getText()), Integer.parseInt(p57.getText()), Integer.parseInt(e57.getText()), Integer.parseInt(p58.getText()), Integer.parseInt(e58.getText()), Integer.parseInt(p59.getText()), Integer.parseInt(e59.getText()), Integer.parseInt(p60.getText()), Integer.parseInt(e60.getText()), Integer.parseInt(p61.getText()), Integer.parseInt(e61.getText()), Integer.parseInt(p62.getText()), Integer.parseInt(e62.getText()), Integer.parseInt(p63.getText()), Integer.parseInt(e63.getText()), Integer.parseInt(p64.getText()), Integer.parseInt(e64.getText()), Integer.parseInt(p65.getText()), Integer.parseInt(e65.getText()), Integer.parseInt(p66.getText()), Integer.parseInt(e66.getText()), Integer.parseInt(p67.getText()), Integer.parseInt(e67.getText()), Integer.parseInt(p68.getText()), Integer.parseInt(e68.getText()), Integer.parseInt(p69.getText()), Integer.parseInt(e69.getText()), Integer.parseInt(p70.getText()), Integer.parseInt(e70.getText()), Integer.parseInt(p71.getText()), Integer.parseInt(e71.getText()), Integer.parseInt(p72.getText()), Integer.parseInt(e72.getText()), Integer.parseInt(p73.getText()), Integer.parseInt(e73.getText()), Integer.parseInt(p74.getText()), Integer.parseInt(e74.getText()), Integer.parseInt(p75.getText()), Integer.parseInt(e75.getText()), Integer.parseInt(p76.getText()), Integer.parseInt(e76.getText()), Integer.parseInt(p77.getText()), Integer.parseInt(e77.getText()), Integer.parseInt(p78.getText()), Integer.parseInt(e78.getText()), Integer.parseInt(p79.getText()), Integer.parseInt(e79.getText()), Integer.parseInt(p80.getText()), Integer.parseInt(e80.getText()), Integer.parseInt(p81.getText()), Integer.parseInt(e81.getText()), Integer.parseInt(p82.getText()), Integer.parseInt(e82.getText()), Integer.parseInt(p83.getText()), Integer.parseInt(e83.getText()), Integer.parseInt(p84.getText()), Integer.parseInt(e84.getText()), Integer.parseInt(p85.getText()), Integer.parseInt(e85.getText()), Integer.parseInt(p86.getText()), Integer.parseInt(e86.getText()), Integer.parseInt(p87.getText()), Integer.parseInt(e87.getText()), Integer.parseInt(p88.getText()), Integer.parseInt(e88.getText()), Integer.parseInt(p89.getText()), Integer.parseInt(e89.getText()), Integer.parseInt(p90.getText()), Integer.parseInt(e90.getText()), Integer.parseInt(p91.getText()), Integer.parseInt(e91.getText()), Integer.parseInt(p92.getText()), Integer.parseInt(e92.getText()), Integer.parseInt(p93.getText()), Integer.parseInt(e93.getText()));
             im.ingreso_gastosOperacionales2(jTextField21.getText(), Integer.parseInt(ANIO6.getValue().toString()), Integer.parseInt(p94.getText()), Integer.parseInt(e94.getText()), Integer.parseInt(p95.getText()), Integer.parseInt(e95.getText()), Integer.parseInt(p96.getText()), Integer.parseInt(e96.getText()), Integer.parseInt(p97.getText()), Integer.parseInt(e97.getText()), Integer.parseInt(p98.getText()), Integer.parseInt(e98.getText()), Integer.parseInt(p99.getText()), Integer.parseInt(e99.getText()), Integer.parseInt(p100.getText()), Integer.parseInt(e100.getText()), Integer.parseInt(p101.getText()), Integer.parseInt(e101.getText()), Integer.parseInt(p102.getText()), Integer.parseInt(e102.getText()), Integer.parseInt(p103.getText()), Integer.parseInt(e103.getText()), Integer.parseInt(p104.getText()), Integer.parseInt(e104.getText()), Integer.parseInt(p105.getText()), Integer.parseInt(e105.getText()), Integer.parseInt(p106.getText()), Integer.parseInt(e106.getText()), Integer.parseInt(p107.getText()), Integer.parseInt(e107.getText()), Integer.parseInt(p108.getText()), Integer.parseInt(e108.getText()), Integer.parseInt(p109.getText()), Integer.parseInt(e109.getText()), Integer.parseInt(p110.getText()), Integer.parseInt(e110.getText()));
             JOptionPane.showMessageDialog(null,"Los datos de Gastos Operacionales y otros Ingresos de la Empresa "+razonsocial.getText()+" en el año "+ANIO6.getValue().toString()+" han sido creada correctamente");                        
@@ -6648,11 +6706,14 @@ public class Gestion_Crear extends javax.swing.JFrame {
     }//GEN-LAST:event_CREARBOTONGUARDAR4MouseClicked
      
     private void CREARBOTONGUARDAR3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_CREARBOTONGUARDAR3MouseClicked
-        if (Integer.parseInt(ANIO3.getValue().toString()) > 0)
+        if ((Integer.parseInt(ANIO3.getValue().toString()) <= 0)||(p1.getText().equals(""))||(p11.getText().equals(""))||(p12.getText().equals(""))||(p13.getText().equals(""))||(p14.getText().equals(""))||(p15.getText().equals(""))||(p16.getText().equals(""))||(p17.getText().equals(""))||(p18.getText().equals(""))||(p19.getText().equals(""))||(p20.getText().equals(""))||(p21.getText().equals(""))||(p22.getText().equals(""))||(p23.getText().equals(""))||(p24.getText().equals(""))||(p25.getText().equals(""))||(p26.getText().equals(""))||(p27.getText().equals(""))||(p28.getText().equals(""))||(p29.getText().equals(""))||(p30.getText().equals(""))||(p31.getText().equals(""))||(p32.getText().equals(""))||(p33.getText().equals(""))||(p34.getText().equals(""))||(p35.getText().equals(""))||(p36.getText().equals(""))||(p37.getText().equals(""))||(p38.getText().equals(""))||(p39.getText().equals(""))||(p40.getText().equals(""))||(p41.getText().equals(""))||(p42.getText().equals(""))||(p43.getText().equals(""))||(p44.getText().equals(""))||(p45.getText().equals(""))||(p46.getText().equals(""))||(p47.getText().equals(""))||(p48.getText().equals(""))||(p49.getText().equals(""))||(p50.getText().equals(""))||(p51.getText().equals(""))||(p52.getText().equals(""))||(p53.getText().equals(""))||(e1.getText().equals(""))||(e11.getText().equals(""))||(e12.getText().equals(""))||(e13.getText().equals(""))||(e14.getText().equals(""))||(e15.getText().equals(""))||(e16.getText().equals(""))||(e17.getText().equals(""))||(e18.getText().equals(""))||(e19.getText().equals(""))||(e20.getText().equals(""))||(e21.getText().equals(""))||(e22.getText().equals(""))||(e23.getText().equals(""))||(e24.getText().equals(""))||(e25.getText().equals(""))||(e26.getText().equals(""))||(e27.getText().equals(""))||(e28.getText().equals(""))||(e29.getText().equals(""))||(e30.getText().equals(""))||(e31.getText().equals(""))||(e32.getText().equals(""))||(e33.getText().equals(""))||(e34.getText().equals(""))||(e35.getText().equals(""))||(e36.getText().equals(""))||(e37.getText().equals(""))||(e38.getText().equals(""))||(e39.getText().equals(""))||(e40.getText().equals(""))||(e41.getText().equals(""))||(e42.getText().equals(""))||(e43.getText().equals(""))||(e44.getText().equals(""))||(e45.getText().equals(""))||(e46.getText().equals(""))||(e47.getText().equals(""))||(e48.getText().equals(""))||(e49.getText().equals(""))||(e50.getText().equals(""))||(e51.getText().equals(""))||(e52.getText().equals(""))||(e53.getText().equals("")))
         {                                     
+            JOptionPane.showMessageDialog(this, "Uno o varios cambos estan vacios!!!");        
+        }
+        else
+        {            
             im.ingreso_ventas(ruc.getText(), Integer.parseInt(ANIO3.getValue().toString()), Integer.parseInt(p1.getText()), Integer.parseInt(e1.getText()), Integer.parseInt(p11.getText()), Integer.parseInt(e11.getText()), Integer.parseInt(p12.getText()), Integer.parseInt(e12.getText()), Integer.parseInt(p13.getText()), Integer.parseInt(e13.getText()), Integer.parseInt(p14.getText()), Integer.parseInt(e14.getText()), Integer.parseInt(p15.getText()), Integer.parseInt(e15.getText()), Integer.parseInt(p16.getText()), Integer.parseInt(e16.getText()), Integer.parseInt(p17.getText()), Integer.parseInt(e17.getText()), Integer.parseInt(p18.getText()), Integer.parseInt(e18.getText()), Integer.parseInt(p19.getText()), Integer.parseInt(e19.getText()), Integer.parseInt(p20.getText()), Integer.parseInt(e20.getText()), Integer.parseInt(p21.getText()), Integer.parseInt(e21.getText()), Integer.parseInt(p22.getText()), Integer.parseInt(e22.getText()), Integer.parseInt(p23.getText()), Integer.parseInt(e23.getText()), Integer.parseInt(p24.getText()), Integer.parseInt(e24.getText()), Integer.parseInt(p25.getText()), Integer.parseInt(e25.getText()), Integer.parseInt(p26.getText()), Integer.parseInt(e26.getText()), Integer.parseInt(p27.getText()), Integer.parseInt(e27.getText()), Integer.parseInt(p28.getText()), Integer.parseInt(e28.getText()), Integer.parseInt(p29.getText()), Integer.parseInt(e29.getText()), Integer.parseInt(p30.getText()), Integer.parseInt(e30.getText()), Integer.parseInt(p31.getText()), Integer.parseInt(e31.getText()), Integer.parseInt(p32.getText()), Integer.parseInt(e32.getText()), Integer.parseInt(p33.getText()), Integer.parseInt(e33.getText()), Integer.parseInt(p34.getText()), Integer.parseInt(e34.getText()), Integer.parseInt(p35.getText()), Integer.parseInt(e35.getText()), Integer.parseInt(p36.getText()), Integer.parseInt(e36.getText()), Integer.parseInt(p37.getText()), Integer.parseInt(e37.getText()), Integer.parseInt(p38.getText()), Integer.parseInt(e38.getText()), Integer.parseInt(p39.getText()), Integer.parseInt(e39.getText()), Integer.parseInt(p40.getText()), Integer.parseInt(e40.getText()), Integer.parseInt(p41.getText()), Integer.parseInt(e41.getText()), Integer.parseInt(p42.getText()), Integer.parseInt(e42.getText()), Integer.parseInt(p43.getText()), Integer.parseInt(e43.getText()), Integer.parseInt(p44.getText()), Integer.parseInt(e44.getText()), Integer.parseInt(p45.getText()), Integer.parseInt(e45.getText()), Integer.parseInt(p46.getText()), Integer.parseInt(e46.getText()), Integer.parseInt(p47.getText()), Integer.parseInt(e47.getText()), Integer.parseInt(p48.getText()), Integer.parseInt(e48.getText()), Integer.parseInt(p49.getText()), Integer.parseInt(e49.getText()), Integer.parseInt(p50.getText()), Integer.parseInt(e50.getText()), Integer.parseInt(p51.getText()), Integer.parseInt(e51.getText()), Integer.parseInt(p52.getText()), Integer.parseInt(e52.getText()), Integer.parseInt(p53.getText()), Integer.parseInt(e53.getText()));
-            JOptionPane.showMessageDialog(null,"Los datos de Ventas y Costo de Ventas de la Empresa "+razonsocial.getText()+" en el año "+ANIO3.getValue().toString()+" han sido creada correctamente");            
-            //JOptionPane.showMessageDialog(this, Integer.parseInt(tabla_ventas.getValueAt(43,1).toString())+" "+ Integer.parseInt(tabla_ventas.getValueAt(43,2).toString()));
+            JOptionPane.showMessageDialog(null,"Los datos de Ventas y Costo de Ventas de la Empresa "+razonsocial.getText()+" en el año "+ANIO3.getValue().toString()+" han sido creada correctamente");                        
         }
     }//GEN-LAST:event_CREARBOTONGUARDAR3MouseClicked
 
@@ -6705,45 +6766,51 @@ public class Gestion_Crear extends javax.swing.JFrame {
     private int contador =1;
     
     private void agregarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_agregarMouseClicked
-  
-        DefaultTableModel modelo = (DefaultTableModel) tabla_materias.getModel();
-           Object [] datos=new Object[10]; 
-           datos[0]=nombre.getText();
-           datos[1]=nd0.getText();
-           datos[2]=unidad.getText();
-           datos[3]=nd1cantidad.getValue();
-           datos[4]=nd1valor.getText();
-           datos[5]=nd2cantidad.getValue();
-           datos[6]=nd2valor.getText();
-           datos[7]=nd3cantidad.getValue();
-           datos[8]=nd3valor.getText().toString();
-           datos[9]= nd4.getText();
-        modelo.addRow(datos);
-        if(contador == 1)
-        {
-            descripcion_a ="'"+nombre.getText()+"'";
-            nd0_a =nd0.getText();
-            UM ="'"+unidad.getText()+"'";
-            nd1_a_c = nd1cantidad.getValue().toString();
-            nd2_a_c = nd2cantidad.getValue().toString();
-            nd3_a_c =nd3cantidad.getValue().toString();
-            nd1_a_v =nd1valor.getText();
-            nd2_a_v =nd2valor.getText();
-            nd3_a_v =nd3valor.getText();
-            nd4_a =nd4.getText();
-            contador++;
-        }
-        else{
-            descripcion_a  +=" ,'"+nombre.getText()+"'";
-            nd0_a +=" ,"+nd0.getText();
-            UM +=" ,'"+unidad.getText()+"'";
-            nd1_a_c += ","+nd1cantidad.getValue().toString();
-            nd2_a_c +=" ,"+nd2cantidad.getValue().toString();
-            nd3_a_c +=" ,"+nd3cantidad.getValue().toString();
-            nd1_a_v +=" ,"+nd1valor.getText();
-            nd2_a_v +=" ,"+nd2valor.getText();
-            nd3_a_v +=" ,"+nd3valor.getText();
-            nd4_a +=" ,"+nd4.getText();
+       if(("".equals(nombre.getText())) || ("".equals(nombre.getText()))||("".equals(nd0.getText()))||("".equals(unidad.getText()))||("".equals(nd1cantidad.getValue().toString()))||("".equals(nd1valor.getText()))||("".equals(nd2cantidad.getValue().toString()))||("".equals(nd2valor.getText()))||("".equals(nd3cantidad.getValue().toString()))||("".equals(nd3valor.getText()))||("".equals(nd4.getText())))
+       {
+           JOptionPane.showMessageDialog(null, "Todos los campos no contiene datos");
+       }
+       else
+       {
+            DefaultTableModel modelo = (DefaultTableModel) tabla_materias.getModel();
+               Object [] datos=new Object[10]; 
+               datos[0]=nombre.getText();
+               datos[1]=nd0.getText();
+               datos[2]=unidad.getText();
+               datos[3]=nd1cantidad.getValue();
+               datos[4]=nd1valor.getText();
+               datos[5]=nd2cantidad.getValue();
+               datos[6]=nd2valor.getText();
+               datos[7]=nd3cantidad.getValue();
+               datos[8]=nd3valor.getText();
+               datos[9]= nd4.getText();
+            modelo.addRow(datos);
+            if(contador == 1)
+            {
+                descripcion_a ="'"+nombre.getText()+"'";
+                nd0_a =nd0.getText();
+                UM ="'"+unidad.getText()+"'";
+                nd1_a_c = nd1cantidad.getValue().toString();
+                nd2_a_c = nd2cantidad.getValue().toString();
+                nd3_a_c =nd3cantidad.getValue().toString();
+                nd1_a_v =nd1valor.getText();
+                nd2_a_v =nd2valor.getText();
+                nd3_a_v =nd3valor.getText();
+                nd4_a =nd4.getText();
+                contador++;
+            }
+            else{
+                descripcion_a  +=" ,'"+nombre.getText()+"'";
+                nd0_a +=" ,"+nd0.getText();
+                UM +=" ,'"+unidad.getText()+"'";
+                nd1_a_c += ","+nd1cantidad.getValue().toString();
+                nd2_a_c +=" ,"+nd2cantidad.getValue().toString();
+                nd3_a_c +=" ,"+nd3cantidad.getValue().toString();
+                nd1_a_v +=" ,"+nd1valor.getText();
+                nd2_a_v +=" ,"+nd2valor.getText();
+                nd3_a_v +=" ,"+nd3valor.getText();
+                nd4_a +=" ,"+nd4.getText();   
+           }           
         }
         // TODO add your handling code here:
     }//GEN-LAST:event_agregarMouseClicked
@@ -6759,42 +6826,49 @@ public class Gestion_Crear extends javax.swing.JFrame {
         private int contador_p = 1;
     
     private void agregar_productoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_agregar_productoMouseClicked
-      
-       DefaultTableModel modelo = (DefaultTableModel) tabla_productos.getModel();
-           Object [] datos=new Object[8]; 
-           datos[0]=nombre_producto.getText();
-           datos[1]=nn.getText();
-           datos[2]=medida_producto.getText();
-           datos[3]=nn1cantidad.getValue();
-           datos[4]=nn1valor.getText();
-           datos[5]=nn2cantidad.getValue();
-           datos[6]=nn2valor.getText();
-           datos[7]=nn3.getText();
-       modelo.addRow(datos);
-       
-       if(contador_p == 1)
+        if(("".equals(nombre_producto.getText()))||("".equals(nn.getText()))||("".equals(medida_producto.getText()))||("".equals(nn1cantidad.getValue().toString()))||("".equals(nn1valor.getText()))||("".equals(nn2cantidad.getValue().toString()))||("".equals(nn2valor.getText()))||("".equals(nn3.getText())))
         {
-            producto ="'"+nombre_producto.getText()+"'";
-            NN =nn.getText();
-            UM_p ="'"+medida_producto.getText()+"'";
-            NN1_c = nn1cantidad.getValue().toString();
-            NN1_v = nn1valor.getText();
-            NN2_c = nn2cantidad.getValue().toString();
-            NN2_v = nn2valor.getText();
-            NN3 = nn3.getText();            
-            contador_p++;
+            JOptionPane.showMessageDialog(null, "Todos los campos no contiene datos");
         }
-        else{
-            producto +=" ,'"+nombre_producto.getText()+"'";
-            NN +=" ,"+nn.getText();
-            UM_p +=" ,'"+medida_producto.getText()+"'";
-            NN1_c +=" ,"+ nn1cantidad.getValue().toString();
-            NN1_v +=" ,"+ nn1valor.getText();
-            NN2_c +=" ,"+ nn2cantidad.getValue().toString();
-            NN2_v +=" ,"+ nn2valor.getText();
-            NN3 +=" ,"+ nn3.getText();    
-                       
+        else
+        {
+            DefaultTableModel modelo = (DefaultTableModel) tabla_productos.getModel();
+            Object [] datos=new Object[8]; 
+            datos[0]=nombre_producto.getText();
+            datos[1]=nn.getText();
+            datos[2]=medida_producto.getText();
+            datos[3]=nn1cantidad.getValue();
+            datos[4]=nn1valor.getText();
+            datos[5]=nn2cantidad.getValue();
+            datos[6]=nn2valor.getText();
+            datos[7]=nn3.getText();
+            modelo.addRow(datos);
+
+            if(contador_p == 1)
+            {
+                producto ="'"+nombre_producto.getText()+"'";
+                NN =nn.getText();
+                UM_p ="'"+medida_producto.getText()+"'";
+                NN1_c = nn1cantidad.getValue().toString();
+                NN1_v = nn1valor.getText();
+                NN2_c = nn2cantidad.getValue().toString();
+                NN2_v = nn2valor.getText();
+                NN3 = nn3.getText();            
+                contador_p++;
+            }
+            else{
+                producto +=" ,'"+nombre_producto.getText()+"'";
+                NN +=" ,"+nn.getText();
+                UM_p +=" ,'"+medida_producto.getText()+"'";
+                NN1_c +=" ,"+ nn1cantidad.getValue().toString();
+                NN1_v +=" ,"+ nn1valor.getText();
+                NN2_c +=" ,"+ nn2cantidad.getValue().toString();
+                NN2_v +=" ,"+ nn2valor.getText();
+                NN3 +=" ,"+ nn3.getText();    
+
+            }
         }
+       
     }//GEN-LAST:event_agregar_productoMouseClicked
 
     private void CREARBOTONGUARDAR8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_CREARBOTONGUARDAR8MouseClicked
@@ -6831,12 +6905,16 @@ public class Gestion_Crear extends javax.swing.JFrame {
     }//GEN-LAST:event_CREARBOTONGUARDAR8ActionPerformed
 
     private void CREARBOTONGUARDAR9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_CREARBOTONGUARDAR9MouseClicked
-        if(Integer.parseInt(ANIO7.getValue().toString()) > 0)
+        if((Integer.parseInt(ANIO7.getValue().toString()) <= 0)||(mercaderia.equals(""))||(ide_m.equals(""))||(UM_m.equals(""))||(NM1_c.equals(""))||(NM1_v.equals(""))||(NM2_c.equals(""))||(NM2_v.equals("")))
+        {
+            JOptionPane.showMessageDialog(null, "No contiene datos para almacenar"); 
+        }
+        else
         {
             contador_m = 1;
             im.ingreso_costomercaderia(ruc.getText(), Integer.parseInt(ANIO7.getValue().toString()), mercaderia, ide_m, UM_m, NM1_c, NM1_v, NM2_c, NM2_v);
             JOptionPane.showMessageDialog(null,"Los datos de Costos de Mercaderia de la Empresa "+razonsocial.getText()+" en el año "+ANIO2.getValue().toString()+" han sido creada correctamente");                        
-        }
+        }                            
     }//GEN-LAST:event_CREARBOTONGUARDAR9MouseClicked
 
     private void nombre_mercaderiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nombre_mercaderiaActionPerformed
@@ -6853,37 +6931,44 @@ public class Gestion_Crear extends javax.swing.JFrame {
     private int contador_m=1;
     
     private void agregar_mercaderiaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_agregar_mercaderiaMouseClicked
-      DefaultTableModel modelo = (DefaultTableModel) tabla_mercaderias.getModel();
-           Object [] datos=new Object[7]; 
-           datos[0]=nombre_mercaderia.getText();
-           datos[1]=ide.getText();
-           datos[2]=unidad_demedida.getText();
-           datos[3]=nm1cantidad.getValue();
-           datos[4]=nm1valor.getText();
-           datos[5]=nm2cantidad.getValue();
-           datos[6]=nm2valor.getText();
-       modelo.addRow(datos);
-       
-       if(contador_m == 1)
+        if(("".equals(nombre_mercaderia.getText()))||("".equals(ide.getText()))||("".equals(unidad_demedida.getText()))||("".equals(nm1cantidad.getValue().toString()))||("".equals(nm1valor.getText()))||("".equals(nm2cantidad.getValue().toString()))||("".equals(nm2valor.getText())))
         {
-            mercaderia ="'"+nombre_mercaderia.getText()+"'";
-            ide_m =ide.getText();
-            UM_m ="'"+unidad_demedida.getText()+"'";
-            NM1_c = nm1cantidad.getValue().toString();
-            NM1_v = nm1valor.getText();
-            NM2_c =nm2cantidad.getValue().toString();            
-            NM2_v =nm2valor.getText();            
-            contador_m++;
+            JOptionPane.showMessageDialog(null, "Todos los campos no contiene datos");
         }
-        else{
-            mercaderia +=" ,'"+nombre_mercaderia.getText()+"'";
-            ide_m +=" ,"+ide.getText();
-            UM_m +=" ,'"+unidad_demedida.getText()+"'";
-            NM1_c +=" ,"+ nm1cantidad.getValue().toString();
-            NM1_v +=" ,"+ nm1valor.getText();
-            NM2_c +=" ,"+nm2cantidad.getValue().toString();            
-            NM2_v +=" ,"+nm2valor.getText();            
-        }
+        else
+        {
+            DefaultTableModel modelo = (DefaultTableModel) tabla_mercaderias.getModel();
+            Object [] datos=new Object[7]; 
+            datos[0]=nombre_mercaderia.getText();
+            datos[1]=ide.getText();
+            datos[2]=unidad_demedida.getText();
+            datos[3]=nm1cantidad.getValue();
+            datos[4]=nm1valor.getText();
+            datos[5]=nm2cantidad.getValue();
+            datos[6]=nm2valor.getText();
+            modelo.addRow(datos);
+
+          if(contador_m == 1)
+           {
+               mercaderia ="'"+nombre_mercaderia.getText()+"'";
+               ide_m =ide.getText();
+               UM_m ="'"+unidad_demedida.getText()+"'";
+               NM1_c = nm1cantidad.getValue().toString();
+               NM1_v = nm1valor.getText();
+               NM2_c =nm2cantidad.getValue().toString();            
+               NM2_v =nm2valor.getText();            
+               contador_m++;
+           }
+           else{
+               mercaderia +=" ,'"+nombre_mercaderia.getText()+"'";
+               ide_m +=" ,"+ide.getText();
+               UM_m +=" ,'"+unidad_demedida.getText()+"'";
+               NM1_c +=" ,"+ nm1cantidad.getValue().toString();
+               NM1_v +=" ,"+ nm1valor.getText();
+               NM2_c +=" ,"+nm2cantidad.getValue().toString();            
+               NM2_v +=" ,"+nm2valor.getText();            
+           }   
+        }        
     }//GEN-LAST:event_agregar_mercaderiaMouseClicked
 
     consulta cons = new consulta();
@@ -7009,6 +7094,20 @@ public class Gestion_Crear extends javax.swing.JFrame {
 
     private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
         vaciar_empresa();        
+        jTextField15.setText("");
+        jTextField16.setText("");
+        jTextField17.setText("");
+        jTextField18.setText("");
+        jTextField31.setText("");
+        jTextField30.setText("");
+        jTextField34.setText("");
+        jTextField35.setText("");
+        jTextField36.setText("");
+        jTextField37.setText("");
+        jTextField21.setText("");
+        jTextField22.setText("");
+        jTextField33.setText("");
+        jTextField32.setText("");
         ruc.enable(true);
         razonsocial.enable(true);
         sector.enable(true);
@@ -9607,6 +9706,284 @@ public class Gestion_Crear extends javax.swing.JFrame {
         if(c < '0' || c > '9')evt.consume();
     }//GEN-LAST:event_nm1valorKeyTyped
 
+    private void Clear_Table_mercaderia(){
+        DefaultTableModel modelo = (DefaultTableModel) tabla_mercaderias.getModel();
+        for (int i = 0; i < tabla_mercaderias.getRowCount(); i++) {           
+           modelo.removeRow(i);
+           i-=1;
+       }
+   }
+    
+    private void jButton5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton5MouseClicked
+        Clear_Table_mercaderia();
+        nombre_mercaderia.setText("");
+        ide.setText("");
+        unidad_demedida.setText("");
+        nm1cantidad.setValue(0);
+        nm1valor.setText("");
+        nm2cantidad.setValue(0);
+        nm2valor.setText("");
+        ANIO7.setValue(0);            
+    }//GEN-LAST:event_jButton5MouseClicked
+
+    private void Clear_Table_materia(){
+        DefaultTableModel modelo = (DefaultTableModel) tabla_materias.getModel();
+        for (int i = 0; i < tabla_materias.getRowCount(); i++) {           
+           modelo.removeRow(i);
+           i-=1;
+       }
+   }    
+    
+    private void jButton6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton6MouseClicked
+        nombre.setText("");
+        Clear_Table_materia();
+        nd0.setText("");
+        unidad.setText("");
+        nd1cantidad.setValue(0);
+        nd1valor.setText("");
+        nd2cantidad.setValue(0);
+        nd2valor.setText("");
+        nd3cantidad.setValue(0);
+        nd3valor.setText("");
+        nd4.setText("");
+        ANIO2.setValue(0);
+    }//GEN-LAST:event_jButton6MouseClicked
+
+    private void CREARBOTONGUARDAR5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CREARBOTONGUARDAR5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_CREARBOTONGUARDAR5ActionPerformed
+
+    private void Clear_Table_ventas(){
+        DefaultTableModel modelo = (DefaultTableModel) tabla_productos.getModel();
+        for (int i = 0; i < tabla_productos.getRowCount(); i++) {           
+           modelo.removeRow(i);
+           i-=1;
+       }
+   } 
+    
+    private void jButton7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton7MouseClicked
+        Clear_Table_ventas();                
+        ANIO4.setValue(0);
+        nombre_producto.setText("");
+        nn.setText("");
+        medida_producto.setText("");
+        nn1cantidad.setValue(0);
+        nn1valor.setText("");
+        nn2cantidad.setValue(0);
+        nn2valor.setText("");
+        nn3.setText("");
+    }//GEN-LAST:event_jButton7MouseClicked
+
+    private void jButton8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton8MouseClicked
+        ANIO6.setValue(0);
+        p54.setText("");
+        p55.setText("");
+        p56.setText("");
+        p57.setText("");
+        p58.setText("");
+        p59.setText("");
+        p60.setText("");
+        p61.setText("");
+        p62.setText("");
+        p63.setText("");
+        p64.setText("");
+        p65.setText("");
+        p66.setText("");
+        p67.setText("");
+        p68.setText("");
+        p69.setText("");
+        p70.setText("");
+        p71.setText("");
+        p72.setText("");
+        p73.setText("");
+        p74.setText("");
+        p75.setText("");
+        p76.setText("");
+        p77.setText("");
+        p78.setText("");
+        p79.setText("");
+        p80.setText("");
+        p81.setText("");
+        p82.setText("");
+        p83.setText("");
+        p84.setText("");
+        p85.setText("");
+        p86.setText("");
+        p87.setText("");
+        p88.setText("");
+        p89.setText("");
+        p90.setText("");
+        p91.setText("");
+        p92.setText("");
+        p93.setText("");
+        p94.setText("");
+        p95.setText("");
+        p96.setText("");
+        p97.setText("");
+        p98.setText("");
+        p99.setText("");
+        p100.setText("");
+        p101.setText("");
+        p102.setText("");
+        p103.setText("");
+        p104.setText("");
+        p105.setText("");
+        p106.setText("");
+        p107.setText("");
+        p108.setText("");
+        p109.setText("");
+        p110.setText("");
+        e54.setText("");
+        e55.setText("");
+        e56.setText("");
+        e57.setText("");
+        e58.setText("");
+        e59.setText("");
+        e60.setText("");
+        e61.setText("");
+        e62.setText("");
+        e63.setText("");
+        e64.setText("");
+        e65.setText("");
+        e66.setText("");
+        e67.setText("");
+        e68.setText("");
+        e69.setText("");
+        e70.setText("");
+        e71.setText("");
+        e72.setText("");
+        e73.setText("");
+        e74.setText("");
+        e75.setText("");
+        e76.setText("");
+        e77.setText("");
+        e78.setText("");
+        e79.setText("");
+        e80.setText("");
+        e81.setText("");
+        e82.setText("");
+        e83.setText("");
+        e84.setText("");
+        e85.setText("");
+        e86.setText("");
+        e87.setText("");
+        e88.setText("");
+        e89.setText("");
+        e90.setText("");
+        e91.setText("");
+        e92.setText("");
+        e93.setText("");
+        e94.setText("");
+        e95.setText("");
+        e96.setText("");
+        e97.setText("");
+        e98.setText("");
+        e99.setText("");
+        e100.setText("");
+        e101.setText("");
+        e102.setText("");
+        e103.setText("");
+        e104.setText("");
+        e105.setText("");
+        e106.setText("");
+        e107.setText("");
+        e108.setText("");
+        e109.setText("");
+        e110.setText("");
+    }//GEN-LAST:event_jButton8MouseClicked
+
+    private void jButton4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton4MouseClicked
+        ANIO3.setValue(0); 
+        p1.setText("");
+        p11.setText("");
+        p12.setText("");
+        p13.setText("");
+        p14.setText("");
+        p15.setText("");
+        p16.setText("");
+        p17.setText("");
+        p18.setText("");
+        p19.setText("");
+        p20.setText("");
+        p21.setText("");
+        p22.setText("");
+        p23.setText("");
+        p24.setText("");
+        p25.setText("");
+        p26.setText("");
+        p27.setText("");
+        p28.setText("");
+        p29.setText("");
+        p30.setText("");
+        p31.setText("");
+        p32.setText("");
+        p33.setText("");
+        p34.setText("");
+        p35.setText("");
+        p36.setText("");
+        p37.setText("");
+        p38.setText("");
+        p39.setText("");
+        p40.setText("");
+        p41.setText("");
+        p42.setText("");
+        p43.setText("");
+        p44.setText("");
+        p45.setText("");
+        p46.setText("");
+        p47.setText("");
+        p48.setText("");
+        p49.setText("");
+        p50.setText("");
+        p51.setText("");
+        p52.setText("");
+        p53.setText("");
+        e1.setText("");
+        e11.setText("");
+        e12.setText("");
+        e13.setText("");
+        e14.setText("");
+        e15.setText("");
+        e16.setText("");
+        e17.setText("");
+        e18.setText("");
+        e19.setText("");
+        e20.setText("");
+        e21.setText("");
+        e22.setText("");
+        e23.setText("");
+        e24.setText("");
+        e25.setText("");
+        e26.setText("");
+        e27.setText("");
+        e28.setText("");
+        e29.setText("");
+        e30.setText("");
+        e31.setText("");
+        e32.setText("");
+        e33.setText("");
+        e34.setText("");
+        e35.setText("");
+        e36.setText("");
+        e37.setText("");
+        e38.setText("");
+        e39.setText("");
+        e40.setText("");
+        e41.setText("");
+        e42.setText("");
+        e43.setText("");
+        e44.setText("");
+        e45.setText("");
+        e46.setText("");
+        e47.setText("");
+        e48.setText("");
+        e49.setText("");
+        e50.setText("");
+        e51.setText("");
+        e52.setText("");
+        e53.setText("");
+    }//GEN-LAST:event_jButton4MouseClicked
+
     /**
      * @param args the command line arguments
      */
@@ -9897,6 +10274,10 @@ public class Gestion_Crear extends javax.swing.JFrame {
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton8;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel100;
